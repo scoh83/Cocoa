@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detailView"
+    android:background="#1947e5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/detailbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffbd11"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+<!--        <ImageView-->
+<!--            android:visibility="visible"-->
+<!--            android:id="@+id/gameOver"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/penguin"-->
+<!--            android:layout_margin="10dp"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/gameOverMsg"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:visibility="visible"
+            android:id="@+id/gameOver"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/gameOverMsg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="bg.json"
+            app:lottie_loop="true">
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:background="@drawable/rounded_corner"
+            android:id="@+id/gameOverMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/cookierunregular"
+            android:textSize="30dp"
+            android:text="참! 잘했어요"
+            android:textColor="@color/black"
+            android:padding="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnreplay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+        </TextView>
+
+        <TextView
+            android:background="@drawable/rounded_corner5"
+            android:id="@+id/btnreplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/cookierunregular"
+            android:textSize="30dp"
+            android:text="다시하기"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnback"
+
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/btnback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner4"
+            android:fontFamily="@font/cookierunregular"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="뒤로"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"></TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <WebView
+        android:id="@+id/webViewSound"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:background="@color/mainStatusBarColor"
+        android:gravity="right"
+        android:padding="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/detailLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="bg.json"
+        app:lottie_loop="true">
+    </com.airbnb.lottie.LottieAnimationView>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cookierunregular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="@+id/detailLogo"
+        app:layout_constraintLeft_toRightOf="@+id/detailLogo" />
+    <LinearLayout
+        android:id="@+id/view_bg"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/cookierunregular"
+            android:gravity="center_horizontal"
+            android:text="○"
+            android:textColor="#ffbeba"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/title2"
+            android:layout_marginLeft="5dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cookierunregular"
+            android:gravity="left"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:id="@+id/title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cookierunregular"
+            android:gravity="center_horizontal"
+            android:text="X"
+            android:textColor="#a4eee4"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/title4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cookierunregular"
+            android:gravity="left"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/scene"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sceneConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.circularreveal.CircularRevealGridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <FrameLayout
+                    android:id="@+id/txtFrame1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#f24e1e"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#ff7262"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#a259ff"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#0acf83"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/txtFrame5"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_row="0"-->
+<!--                    android:layout_column="4"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_gravity="center|top">-->
+
+<!--                    <com.airbnb.lottie.LottieAnimationView-->
+<!--                        android:id="@+id/textLottie5"-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:visibility="invisible"-->
+<!--                        app:lottie_autoPlay="true"-->
+<!--                        app:lottie_fileName="boom.json"-->
+<!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView5"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="@font/cookierunbold"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="기"-->
+<!--                        android:textColor="#FF89BB"-->
+<!--                        android:textSize="50dp"-->
+<!--                        android:visibility="invisible" />-->
+<!--                </FrameLayout>-->
+                <FrameLayout
+                    android:id="@+id/txtFrame6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie6"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#f24e1e"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#ff7262"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#a259ff"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie9"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#0acf83"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/txtFrame10"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_row="0"-->
+<!--                    android:layout_column="4"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_gravity="center|top">-->
+
+<!--                    <com.airbnb.lottie.LottieAnimationView-->
+<!--                        android:id="@+id/textLottie10"-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:visibility="invisible"-->
+<!--                        app:lottie_autoPlay="true"-->
+<!--                        app:lottie_fileName="boom.json"-->
+<!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView10"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="@font/cookierunbold"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="기"-->
+<!--                        android:textColor="#FF89BB"-->
+<!--                        android:textSize="50dp"-->
+<!--                        android:visibility="invisible" />-->
+<!--                </FrameLayout>-->
+
+
+                <FrameLayout
+                    android:id="@+id/txtFrame11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie11"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#ff89bb"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie12"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#ffbd11"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie13"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#ffbeba"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie14"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#FE9A2E"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/txtFrame15"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_row="0"-->
+<!--                    android:layout_column="4"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_gravity="center|top">-->
+
+<!--                    <com.airbnb.lottie.LottieAnimationView-->
+<!--                        android:id="@+id/textLottie15"-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:visibility="invisible"-->
+<!--                        app:lottie_autoPlay="true"-->
+<!--                        app:lottie_fileName="boom.json"-->
+<!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView15"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="@font/cookierunbold"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="기"-->
+<!--                        android:textColor="#FF89BB"-->
+<!--                        android:textSize="50dp"-->
+<!--                        android:visibility="invisible" />-->
+<!--                </FrameLayout>-->
+                <FrameLayout
+                    android:id="@+id/txtFrame16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie16"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#ff89bb"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie17"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#ffbd11"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie18"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#ffbeba"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/txtFrame19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center|top">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/textLottie19"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="invisible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="boom.json"
+                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cookierunbold"
+                        android:gravity="center_horizontal"
+                        android:text="기"
+                        android:textColor="#FE9A2E"
+                        android:textSize="50dp"
+                        android:visibility="invisible" />
+                </FrameLayout>
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/txtFrame20"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_row="0"-->
+<!--                    android:layout_column="4"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_gravity="center|top">-->
+
+<!--                    <com.airbnb.lottie.LottieAnimationView-->
+<!--                        android:id="@+id/textLottie20"-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:visibility="invisible"-->
+<!--                        app:lottie_autoPlay="true"-->
+<!--                        app:lottie_fileName="boom.json"-->
+<!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView20"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="@font/cookierunbold"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="기"-->
+<!--                        android:textColor="#FF89BB"-->
+<!--                        android:textSize="50dp"-->
+<!--                        android:visibility="invisible" />-->
+<!--                </FrameLayout>-->
+
+            </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/main_lottie"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="right|bottom"
+                app:layout_constraintBottom_toTopOf="@+id/textArea"
+                app:layout_constraintEnd_toEndOf="@+id/sceneConstraintLayout"
+                app:layout_constraintStart_toStartOf="@+id/sceneConstraintLayout"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="train.json"
+                app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/main_lottie2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="right|bottom"
+                app:layout_constraintBottom_toTopOf="@+id/textArea"
+                app:layout_constraintEnd_toEndOf="@+id/sceneConstraintLayout"
+                app:layout_constraintStart_toStartOf="@+id/sceneConstraintLayout"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="train.json"
+                app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+
+            <ImageView
+                android:visibility="invisible"
+                android:id="@+id/main_Image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="right|bottom"
+                app:layout_constraintBottom_toTopOf="@+id/textArea"
+                app:layout_constraintEnd_toEndOf="@+id/sceneConstraintLayout"
+                app:layout_constraintStart_toStartOf="@+id/sceneConstraintLayout" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/congratulations_lottie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|bottom"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="-100dp"
+                android:layout_marginLeft="10dp"
+
+                android:visibility="gone"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="congratulations.json"
+                app:lottie_loop="false"></com.airbnb.lottie.LottieAnimationView>
+
+            <LinearLayout
+                android:visibility="visible"
+                android:id="@+id/textArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                >
+                <TextView
+                    android:id="@+id/txtanswer1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/rounded_corner_detail"
+                    android:fontFamily="@font/cookierunregular"
+                    android:gravity="center|center"
+                    android:text=""
+                    android:textColor="#f85a2b"
+                    android:textSize="50dp" />
+                <TextView
+                    android:id="@+id/txtanswer2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/rounded_corner_detail"
+                    android:fontFamily="@font/cookierunregular"
+                    android:gravity="center|center"
+                    android:text=""
+                    android:textColor="#6200EE"
+                    android:textSize="50dp" />
+                <TextView
+                    android:id="@+id/txtanswer3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/rounded_corner_detail"
+                    android:fontFamily="@font/cookierunregular"
+                    android:gravity="center|center"
+                    android:text=""
+                    android:textColor="#FFBB86FC"
+                    android:textSize="50dp" />
+                <TextView
+                    android:id="@+id/txtanswer4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/rounded_corner_detail"
+                    android:fontFamily="@font/cookierunregular"
+                    android:gravity="center|center"
+                    android:text=""
+                    android:textColor="#FF018786"
+                    android:textSize="50dp" />
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

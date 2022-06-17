@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Cocoa" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/myStatusBarColor</item>
+        <item name="colorPrimaryVariant">@color/myStatusBarColor</item>
+        <item name="colorOnPrimary">@color/myStatusBarColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimaryDark">@color/myStatusBarColor</item> <!-- statusbar color -->
+        <item name="android:navigationBarColor">@color/myStatusBarColor</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.Cocoa.Intro" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/myStatusBarColor</item>
+        <item name="colorPrimaryVariant">@color/myStatusBarColor</item>
+        <item name="colorOnPrimary">@color/myStatusBarColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimaryDark">@color/myStatusBarColor</item> <!-- statusbar color -->
+        <item name="android:navigationBarColor">@color/myStatusBarColor</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.Cocoa.Main" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mainStatusBarColor</item>
+        <item name="colorPrimaryVariant">@color/mainStatusBarColor</item>
+        <item name="colorOnPrimary">@color/mainStatusBarColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimaryDark">@color/mainStatusBarColor</item> <!-- statusbar color -->
+        <item name="android:navigationBarColor">@color/mainStatusBarColor</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
