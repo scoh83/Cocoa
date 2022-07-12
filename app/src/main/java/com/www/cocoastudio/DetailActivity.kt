@@ -16,6 +16,10 @@ import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.airbnb.lottie.LottieAnimationView
+import io.realm.Realm
+import io.realm.RealmResults
+import io.realm.Sort
+import io.realm.kotlin.where
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -61,28 +65,28 @@ class DetailActivity : AppCompatActivity() {
     lateinit var title2 : TextView
     lateinit var title4 : TextView
     lateinit var gameOverMsg : TextView
-
     var bgStatus :Int = 1
+    var scene : Int = 0
+    var status : Boolean = false
+
+    private var realm: Realm = Realm.getDefaultInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        soundPool = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        btnSound = soundPool!!.load(this, R.raw.intro2, 1)
-        btnSound2 = soundPool!!.load(this, R.raw.click, 1)
-        mediaPlayer2 = MediaPlayer.create(this, R.raw.bg)
         initPage();     // 페이지 오브젝트 초기화
+        paly()          // 게임 시작
 
-        game()
-
+        // 뒤로 버튼
         var btnBack :TextView  = findViewById(R.id.btnback)
         btnBack.setOnClickListener {
-            soundPool?.play(btnSound, 1.0f, 1.0f, 0, 0, 1.0f)
-            startActivity(Intent(this, MainActivity::class.java))
+            soundPool?.play(btnSound, 0.1f, 0.1f, 0, 0, 1.0f)
+            //startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
 
+        // 다시 하기
         var btnreplay :TextView  = findViewById(R.id.btnreplay)
         btnreplay.setOnClickListener {
 
@@ -90,34 +94,57 @@ class DetailActivity : AppCompatActivity() {
             detailbg.visibility =  View.GONE
             gameidx = 0;
             mediaPlayer2 = MediaPlayer.create(this, R.raw.bg)
+            mediaPlayer2.setVolume(0.3f, 0.3f)
             mediaPlayer2.start()
             bgStatus = 1
+            scene = 0
+            status = false
 
             for (index in 0 until 11) { checkStatus[index] = false }
             checkStatus[gameidx] = true
             gameover = false
-
             score.text = ""
             title2.text = ""
             title4.text = ""
+            paly()
+        }
 
-            game()
+        var cnt = 0
+        gameOver.setOnClickListener {
+            var lottie : String = "bg.json"
+            cnt++
+            soundPool?.play(btnSound, 0.6f, 0.6f, 0, 0, 1.0f)
+            fnvibrator()
+
+            if(cnt == 0)
+                lottie = "bg.json"
+            else if(cnt < 5)
+                lottie = "bg2.json"
+            else if(cnt < 10)
+                lottie = "bg3.json"
+            else if(cnt < 15)
+                lottie = "bg4.json"
+            else
+                lottie = "bg5.json"
+
+            gameOver.setAnimation(lottie)
+            gameOver.loop(true);
+            gameOver.playAnimation();
         }
 
     }
 
-    fun game(){
+    fun paly(){
 
         // 1초에 한번씩 상태체크 해라
         val millisTime: Long = 1000
         mainRunnable = object : Runnable {
             override fun run() {
-
                 if (checkStatus[gameidx] == true && stepArrayLen > gameidx) {
-                    if(gameidx == 0) {
-                        mediaPlayer2.start()
-                    }
 
+                    if(gameidx == 0) {
+                        mediaPlayer2.setVolume(0.1f, 0.1f)
+                        mediaPlayer2.start()  }
                     itemCount[gameidx] = 0
                     gameStart(gameidx)
                     gameidx++
@@ -127,8 +154,7 @@ class DetailActivity : AppCompatActivity() {
                 mainHandler.postDelayed(this, millisTime) // millisTiem 이후 다시
 
                 // 타임어 종료
-                if (stepArrayLen == gameidx)
-                {
+                if (stepArrayLen == gameidx) {
                     gameover = true
                     mainHandler.removeCallbacks(mainRunnable) // handler task 등록
                 }
@@ -140,26 +166,30 @@ class DetailActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        Log.d("tttttt", "onResume")
+        mediaPlayer2.setVolume(0.1f, 0.1f)
         mediaPlayer2.start()
-        //mediaPlayer2.release()
     }
 
     override fun onPause() {
         super.onPause()
-        startActivity(Intent(this, MainActivity::class.java))
         finish()
-
     }
 
     override fun onDestroy() {
         super.onDestroy()
+        //mediaPlayer2.setVolume(0.1f, 0.1f)
         mediaPlayer2.release()
         mainHandler.removeCallbacks(mainRunnable) // handler task 등록
     }
 
     // 페이지 초기화
     fun initPage() {
+
+        soundPool = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
+        btnSound = soundPool!!.load(this, R.raw.intro2, 1)
+        btnSound2 = soundPool!!.load(this, R.raw.click, 1)
+        mediaPlayer2 = MediaPlayer.create(this, R.raw.bg)
+
         var textView1: TextView = findViewById(R.id.textView1);
         var textView2: TextView = findViewById(R.id.textView2);
         var textView3: TextView = findViewById(R.id.textView3);
@@ -252,24 +282,22 @@ class DetailActivity : AppCompatActivity() {
         main_Image = findViewById(R.id.main_Image)
         congratulations_lottie = findViewById(R.id.congratulations_lottie);
 
-
-        jsonString = assets.open("step.json").reader().readText();
-        var jsonObject = JSONObject(jsonString)                            // Json 데이터를 가져와서
-
         if(intent.hasExtra("Code"))
         {
-            var code = intent.getStringExtra("Code").toString()
-            if(code == "1" || code == "2" ||  code == "3" ||  code == "4")
+            var JsonName = intent.getStringExtra("JsonName").toString()
+            jsonString = assets.open("$JsonName.json").reader().readText();
+            var jsonObject = JSONObject(jsonString)                            // Json 데이터를 가져와서
+
+            if(intent.hasExtra("Code"))
+            {
+                var code = intent.getStringExtra("Code").toString()
                 jsonStepArray = jsonObject.getJSONArray("step$code")
+            }
             else
                 jsonStepArray = jsonObject.getJSONArray("step$stepIdx")
         }
-        else
-            jsonStepArray = jsonObject.getJSONArray("step$stepIdx")
 
-        //jsonStepArray = jsonObject.getJSONArray("step$stepIdx")     // 스탭정보에 맞게 데이저를 조회 한다
         stepArrayLen = jsonStepArray.length()
-
         detailView = findViewById(R.id.detailView)
         webView = findViewById(R.id.webViewSound)
         score =  findViewById(R.id.score)
@@ -289,9 +317,10 @@ class DetailActivity : AppCompatActivity() {
         val jsonGameArray = jsonStep.getJSONArray("questions")              // 떨어질 한글목록
         val jsondelayMillisArray = jsonStep.getJSONArray("delayMillis")     // 떨어질 한글목록의 딜레이 시간
 
+        SetDesc(jsonStep)                                                         // 퀴즈 설명 셋팅
         SetQuiz(jsonStep.getString("lottiejson"), jsonStep.getString("image"))  //퀴즈영역셋팅
         SetBgColor(jsonStep.getString("bgColor"))                           // 배경색상 변경
-        SetAnswer(jsonStep.getString("example"), postion, answer )                  // 정답 셋팅
+        SetAnswer(jsonStep.getString("example"), postion, answer )          // 정답 셋팅
 
         webView.webViewClient = WebViewClient()
         webView.loadUrl(jsonStep.getString("url"))
@@ -315,10 +344,11 @@ class DetailActivity : AppCompatActivity() {
     {
         // 생성하고
         Handler().postDelayed(Runnable {
-            if(congratulations_lottie.visibility != View.VISIBLE) {
+            //한글을 떨어트려라
+            if(status == false && (idx+1) ==  scene )
+            {
                 frameLayoutObj.visibility = View.VISIBLE
                 txtObj.visibility = View.VISIBLE
-                //한글을 떨어트려라
                 objMove(frameLayoutObj)
             }
         }, delayMillis)
@@ -327,26 +357,80 @@ class DetailActivity : AppCompatActivity() {
         Handler().postDelayed(Runnable {
             frameLayoutObj.visibility = View.INVISIBLE
             txtObj.visibility = View.INVISIBLE
-
-            Log.d("tttttt1", "txtObj : "+txtObj.text)
-            //objMove(frameLayoutObj, 0f, 0L)
             itemCount[idx] = itemCount[idx] +1
-            //Log.d("tttttt", "$idx  itemCount[idx] : "+itemCount[idx] + " checkStatus[idx] : "+checkStatus[idx])
             if(itemCount[idx] >= 7) {
-                Log.d("tttttt1", "idx+1 : "+(idx+1))
-                checkStatus[idx+1] = true
-                if((idx+1) == 10)
-                    gameOver()
 
+                var x = idx+1;
+                if(title2.text == "")
+                {
+                    title4.text =  if((x - 0) < 0) "0" else (x - 0).toString()
+                }
+                else
+                {
+                    title4.text = if((x - title2.text.toString().toInt()) < 0 )  "0"  else  (x - title2.text.toString().toInt()).toString()
+                }
+                checkStatus[idx+1] = true
+                if((idx+1) == stepArrayLen){
+                    gameOver()
+                }
             }
 
         }, delayMillis + objMovetime )  // 떨어지는 시간과 생성시점의 시간 더하고 위치를 초기화 한다
+    }
 
+    @RequiresApi(Build.VERSION_CODES.O)
+    fun objClick(txtObj : TextView, lottieObj : LottieAnimationView, postion: String, answer : String, idx:Int, url :String)
+    {
+        // 클릭해라
+        txtObj.setOnClickListener{
+            fnvibrator()    //클릭이 되면 진동을
+
+            if(txtObj.text.toString() == answer)
+            {
+                status = true
+                bgStatus = 1
+                soundPool?.play(btnSound2, 0.6f, 0.6f, 0, 0, 1.0f)
+                // 정답인경우 (8 초의 시간흐름 필요)
+                txtanswer[postion.toInt()].text = answer
+                congratulations_lottie.visibility = View.VISIBLE            // 축하 이미지 노출
+                congratulations_lottie.playAnimation();
+
+                Handler().postDelayed(Runnable {
+                    congratulations_lottie.visibility = View.INVISIBLE      // 축하 이미지 삭제    (3초)
+                    checkStatus[idx+1] = true;
+                }, 3000)
+
+                // 모든 한글 오브젝트를 숨기고
+                for (index in 0 until 8){
+                    val FrameLayoutObj : FrameLayout  = if(idx % 2 == 0) frameArray[index] else frameArray2[index]
+                    FrameLayoutObj.visibility = View.INVISIBLE
+                }
+
+                title2.text = if( title2.text == "") "1" else (title2.text.toString().toInt() +1).toString()
+                gameOver()  //마지막 인경우
+            }
+            else
+            {
+                bgStatus++
+                soundPool?.play(btnSound, 1.0f, 1.0f, 0, 0, 1.0f)
+                txtObj.visibility = View.INVISIBLE
+                lottieObj.visibility =  View.VISIBLE        // 터지는 이미지 노출
+                Handler().postDelayed(Runnable {            // 0.5초뒤에 이미지는 사라저라
+                    lottieObj.visibility = View.INVISIBLE
+                }, 500L)
+            }
+
+            Setface()
+        }
     }
 
     // 게임 종료처리
     fun gameOver()
     {
+        var txtDesc : TextView =  findViewById(R.id.txtDesc)
+        var txtDesc1 : TextView =  findViewById(R.id.txtDesc1)
+        txtDesc.visibility = View.GONE
+        txtDesc1.visibility = View.GONE
         if(gameover == true)
         {
             score.text = ""
@@ -361,7 +445,7 @@ class DetailActivity : AppCompatActivity() {
 
             var detailbg: View =  findViewById(R.id.detailbg)
             detailbg.visibility =  View.VISIBLE
-            SetBgColor("#ffbd11")
+            SetBgColor("#7579fe")
             mediaPlayer2.release()
 
             var lottie : String = "bg.json"
@@ -377,6 +461,21 @@ class DetailActivity : AppCompatActivity() {
                 gameOver.setAnimation(lottie)
                 gameOver.loop(true);
                 gameOver.playAnimation();
+
+
+                var step  = getAllStep()
+
+                if(intent.hasExtra("JsonName"))
+                {
+                    var id = intent.getStringExtra("JsonName").toString()
+                    var idx = intent.getStringExtra("Code").toString()
+
+                    var code = Integer.parseInt(idx) +1
+                    insert(Step(id + code.toString(),"1"))
+                    //마지막 단계처리 필요
+                }
+                else
+                    insert(Step("step","1"))
 
                 gameOverMsg.text  = "참! 잘했어요"
                 webView.loadUrl("https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_274-nvoice_kyuri_2.2.2_1ff68b6b93505089a3882debb2c99cd2-1655259981950")
@@ -440,16 +539,56 @@ class DetailActivity : AppCompatActivity() {
         }
     }
 
+    // 퀴즈 설명셋팅
+    fun SetDesc(jsonStep : JSONObject)
+    {
+        var txtDesc : TextView =  findViewById(R.id.txtDesc)
+        var txtDesc1 : TextView =  findViewById(R.id.txtDesc1)
+        var linearLayout : LinearLayout =  findViewById(R.id.textArea)
+        linearLayout.setPadding(0,50,0,20)
+
+        if(jsonStep.has("desc")){
+            if(jsonStep.has("type"))
+            {
+                if(jsonStep.getString("type") == "1")
+                {
+                    txtDesc1.visibility = View.VISIBLE
+                    txtDesc.visibility = View.GONE
+                    txtDesc1.text = jsonStep.getString("desc")
+                    linearLayout.setPadding(0,20,0,0)
+
+                }
+                else
+                {
+                    txtDesc1.visibility = View.GONE
+                    txtDesc.visibility = View.VISIBLE
+                    txtDesc.text = jsonStep.getString("desc")
+                }
+            }
+            else
+            {
+                txtDesc1.visibility = View.GONE
+                txtDesc.visibility = View.VISIBLE
+                txtDesc.text = jsonStep.getString("desc")
+            }
+        }
+        else
+        {
+            txtDesc.visibility = View.GONE
+            txtDesc1.visibility = View.GONE
+        }
+    }
+
     fun Setface()
     {
         var lottie : String = "bg.json"
         if(bgStatus == 1)
             lottie = "bg.json"
-        else if(bgStatus < 10)
+        else if(bgStatus < 4)
             lottie = "bg2.json"
-        else if(bgStatus < 20)
+        else if(bgStatus < 5)
             lottie = "bg3.json"
-        else if(bgStatus < 30)
+        else if(bgStatus < 6)
             lottie = "bg4.json"
         else
             lottie = "bg5.json"
@@ -475,7 +614,6 @@ class DetailActivity : AppCompatActivity() {
                 main_lottie2.setAnimation(lottiejson)
                 main_lottie2.loop(true);
                 main_lottie2.playAnimation();
-
             }
             else
             {
@@ -485,7 +623,6 @@ class DetailActivity : AppCompatActivity() {
                 main_lottie.setAnimation(lottiejson)
                 main_lottie.loop(true);
                 main_lottie.playAnimation();
-
             }
         } else {
             // 이미지 리소스 가져오기
@@ -493,14 +630,23 @@ class DetailActivity : AppCompatActivity() {
             main_lottie.visibility = View.INVISIBLE
             main_lottie2.visibility = View.INVISIBLE    //조금더 큰 사이즈
             main_Image.visibility = View.VISIBLE
-
             main_Image.setImageResource(img)
-
         }
     }
 
     // 배경색 변경
     fun SetBgColor(bgColor :String) {
+
+        status = false
+        scene++
+
+//        for (index in 0 until 8){
+//            val FrameLayoutObj : FrameLayout  = if(scene % 2 == 0) frameArray[index] else frameArray2[index]
+//            FrameLayoutObj.visibility = View.INVISIBLE
+//        }
+//
+//        var txtScene : TextView  = findViewById(R.id.txtScene)
+//        txtScene.text = scene.toString()
         detailView.setBackgroundColor(Color.parseColor(bgColor))
         getWindow().setStatusBarColor(Color.parseColor(bgColor))        // set color only status bar
         getWindow().setNavigationBarColor(Color.parseColor(bgColor))    // set color only navigation bar
@@ -514,66 +660,25 @@ class DetailActivity : AppCompatActivity() {
         anim1.start()
     }
 
-    @RequiresApi(Build.VERSION_CODES.O)
-    fun objClick(txtObj : TextView, lottieObj : LottieAnimationView, postion: String, answer : String, idx:Int, url :String)
-    {
-        // 클릭해라
-        txtObj.setOnClickListener{
-            fnvibrator()    //클릭이 되면 진동을
-
-            if(txtObj.text.toString() == answer)
-            {
-                bgStatus = 1
-                soundPool?.play(btnSound2, 0.6f, 0.6f, 0, 0, 1.0f)
-                // 정답인경우 (8 초의 시간흐름 필요)
-                txtanswer[postion.toInt()].text = answer
-                congratulations_lottie.visibility = View.VISIBLE            // 축하 이미지 노출
-                congratulations_lottie.playAnimation();
-                Handler().postDelayed(Runnable {
-//                    webView.webViewClient = WebViewClient()
-//                    webView.loadUrl(url)
-                    congratulations_lottie.visibility = View.INVISIBLE      // 축하 이미지 삭제    (3초)
-                }, 3000)
-
-                Handler().postDelayed(Runnable {
-//                    gameidx++
-//                    gameStart(gameidx)
-                    checkStatus[idx+1] = true;
-//                    var toast = Toast.makeText(this, "다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음다음", Toast.LENGTH_LONG)
-//                    toast.show()
-                }, 3000)
-
-                // 모든 한글 오브젝트를 숨기고
-                for (index in 0 until 8){
-                    val FrameLayoutObj : FrameLayout  =if(idx % 2 == 0) frameArray[index] else frameArray2[index]
-                    FrameLayoutObj.visibility = View.INVISIBLE
-                }
-
-                title2.text = if( title2.text == "") "1" else (title2.text.toString().toInt() +1).toString()
-                //마지막 인경우
-                gameOver()
-            }
-            else
-            {
-                title4.text = if( title4.text == "") "1" else (title4.text.toString().toInt() +1).toString()
-                bgStatus++
-                soundPool?.play(btnSound, 1.0f, 1.0f, 0, 0, 1.0f)
-                txtObj.visibility = View.INVISIBLE
-                lottieObj.visibility =  View.VISIBLE        // 터지는 이미지 노출
-                Handler().postDelayed(Runnable {            // 0.5초뒤에 이미지는 사라저라
-                    lottieObj.visibility = View.INVISIBLE
-                }, 500L)
-            }
-
-            Setface()
-        }
-    }
-
     //진동
     fun fnvibrator()
     {
         val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator;
         vibrator.vibrate(VibrationEffect.createOneShot(100, 100));
     }
+
+    fun insert(step: Step) {
+
+        realm.executeTransactionAsync {
+            it.insertOrUpdate(step)
+        }
+    }
+
+    fun getAllStep(): RealmResults<Step> {
+        return realm.where<com.www.cocoastudio.Step>()
+            .findAll()
+            .sort("id", Sort.ASCENDING)
+    }
+
 }
 

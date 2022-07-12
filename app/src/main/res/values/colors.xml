@@ -7,9 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="myStatusBarColor">#1947e5</color> <!-- status bar -->
-    <color name="mainStatusBarColor">#FFE4EF</color>
+    <color name="myStatusBarColor">#FF3700B3</color> <!-- status bar -->
+    <color name="mainStatusBarColor">#db74ff</color>
     <color name="TRANSPARENT" />
-
 
 </resources>

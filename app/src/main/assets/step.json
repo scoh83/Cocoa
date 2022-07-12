@@ -1,50 +1,23 @@
 {
   "step1": [
     {
-      "consonant": "ㄱ",
       "postion": "0",
-      "example": "구마",
       "answer": "고",
-      "questions": [
-        { "1": "고" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "버" },
-        { "7": "스" },
-        { "8": "호" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "example": "구마",
       "bgColor": "#d8b499",
       "lottiejson": "",
       "image": "sweetpotato",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_264-nvoice_kyuri_2.2.2_b1c68b3d9aa87e8eb4944ecf02ab1446-1654349084865"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "차",
-      "answer": "기",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_78-nvoice_kyuri_2.2.3_b1c68b3d9aa87e8eb4944ecf02ab1446-1655879931501",
       "questions": [
-        { "1": "교" },
-        { "2": "과" },
-        { "3": "기" },
-        { "4": "버" },
-        { "5": "스" },
-        { "6": "가" },
-        { "7": "지" },
-        { "8": "거" }
+        { "1": "고" },
+        { "2": "구" },
+        { "3": "마" },
+        { "4": "기" },
+        { "5": "차" },
+        { "6": "거" },
+        { "7": "미" },
+        { "8": "구" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -55,58 +28,26 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#1947e5",
-      "lottiejson": "train.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_75-nvoice_kyuri_2.2.2_0af83953e6b051fefd2726f253577dd0-1654349331308"
+      ]
     },
     {
-      "consonant": "ㄱ",
       "postion": "0",
-      "example": "두",
       "answer": "구",
-      "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "구" },
-        { "4": "오" },
-        { "5": "이" },
-        { "6": "새" },
-        { "7": "사" },
-        { "8": "탕" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#7c4aba",
+      "example": "두",
+      "bgColor": "#3490dc",
       "lottiejson": "",
       "image": "highheels",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_87-nvoice_kyuri_2.2.2_b42373de263547d02e5fb878bc26bd6e-1654349460041"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "미",
-      "answer": "거",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_410-nvoice_kyuri_2.2.3_f5d3ff13d10029c289fdc94fdf7625c4-1655880014900",
       "questions": [
-        { "1": "자" },
-        { "2": "동" },
-        { "3": "차" },
-        { "4": "거" },
-        { "5": "고" },
-        { "6": "구" },
-        { "7": "마" },
-        { "8": "나" }
+        { "1": "고" },
+        { "2": "구" },
+        { "3": "마" },
+        { "4": "기" },
+        { "5": "차" },
+        { "6": "거" },
+        { "7": "미" },
+        { "8": "구" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -117,120 +58,26 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#e96211",
-      "lottiejson": "spider.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_181-nvoice_kyuri_2.2.2_e13241314ccb88a160134b128eebd81d-1654349480002"
+      ]
     },
     {
-      "consonant": "ㄱ",
-      "postion": "2",
-      "example": "대중통",
-      "answer": "교",
-      "questions": [
-        { "1": "배" },
-        { "2": "교" },
-        { "3": "아" },
-        { "4": "이" },
-        { "5": "스" },
-        { "6": "크" },
-        { "7": "림" },
-        { "8": "초" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#3490dc",
-      "lottiejson": "publictransport.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_19-nvoice_kyuri_2.2.2_509eb69433c0906b80c6e710436a289b-1654349498979"
-    },
-    {
-      "consonant": "ㄱ",
       "postion": "0",
-      "example": "구",
-      "answer": "가",
-      "questions": [
-        { "1": "하" },
-        { "2": "마" },
-        { "3": "가" },
-        { "4": "세" },
-        { "5": "소" },
-        { "6": "갸" },
-        { "7": "거" },
-        { "8": "겨" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#7c4aba",
-      "lottiejson": "furniture.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_218-nvoice_kyuri_2.2.2_17f8f4162da1e0e00df9e1aadf1fc8c2-1654349563059"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "네",
       "answer": "그",
-      "questions": [
-        { "1": "가" },
-        { "2": "마" },
-        { "3": "거" },
-        { "4": "미" },
-        { "5": "고" },
-        { "6": "구" },
-        { "7": "마" },
-        { "8": "그" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "example": "네",
       "bgColor": "#d8b499",
       "lottiejson": "",
       "image": "swing",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_115-nvoice_kyuri_2.2.2_04c801082b3662b0a03f99d5fd49226e-1654349581507"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "지",
-      "answer": "가",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_193-nvoice_kyuri_2.2.3_13aff0cd6a04029e45cdc773185c2308-1655880083685",
       "questions": [
-        { "1": "거" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "버" },
-        { "7": "스" },
-        { "8": "고" }
+        { "1": "가" },
+        { "2": "구" },
+        { "3": "거" },
+        { "4": "미" },
+        { "5": "그" },
+        { "6": "네" },
+        { "7": "고" },
+        { "8": "기" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -241,245 +88,149 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "기",
+      "example": "차",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "train",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_124-nvoice_kyuri_2.2.3_42c888cb3122f53395af46918d8cf2eb-1655879988387",
+      "questions": [
+        { "1": "고" },
+        { "2": "구" },
+        { "3": "마" },
+        { "4": "기" },
+        { "5": "차" },
+        { "6": "거" },
+        { "7": "미" },
+        { "8": "구" }
       ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "가",
+      "example": "구",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "sofa",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_433-nvoice_kyuri_2.2.3_59f8862fa7ad42f15074d2e38e48d99f-1655880069578",
+      "questions": [
+        { "1": "가" },
+        { "2": "구" },
+        { "3": "거" },
+        { "4": "미" },
+        { "5": "그" },
+        { "6": "네" },
+        { "7": "고" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "거",
+      "example": "미",
       "bgColor": "#d8b499",
       "lottiejson": "",
-      "image": "eggplant",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_248-nvoice_kyuri_2.2.2_28a9196d061ae5d84dc711d1164b2675-1654349640651"
+      "image": "spider",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_197-nvoice_kyuri_2.2.3_9e6a7188db65e4547dc72b40d7451844-1655880052692",
+      "questions": [
+        { "1": "고" },
+        { "2": "구" },
+        { "3": "마" },
+        { "4": "기" },
+        { "5": "차" },
+        { "6": "거" },
+        { "7": "미" },
+        { "8": "구" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
     },
+
     {
-      "consonant": "ㄱ",
       "postion": "0",
-      "example": "울",
-      "answer": "겨",
-      "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "사" },
-        { "4": "과" },
-        { "5": "겨" },
-        { "6": "바" },
-        { "7": "나" },
-        { "8": "나" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#3490dc",
-      "lottiejson": "winter.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_320-nvoice_kyuri_2.2.2_0fc3a5dbf1de2b776c60a8e465a08a42-1654349616508"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "1",
-      "example": "농",
-      "answer": "구",
-      "questions": [
-        { "1": "호" },
-        { "2": "랑" },
-        { "3": "이" },
-        { "4": "구" },
-        { "5": "사" },
-        { "6": "자" },
-        { "7": "악" },
-        { "8": "어" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "answer": "고",
+      "example": "기",
       "bgColor": "#d8b499",
-      "lottiejson": "basketball.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_189-nvoice_kyuri_2.2.2_f7801290a37401b4e086388605a170ba-1654349662775"
+      "lottiejson": "",
+      "image": "meat",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_87-nvoice_kyuri_2.2.3_59859903dd067a0e3aed0d5006a96569-1655880120041",
+      "questions": [
+        { "1": "가" },
+        { "2": "구" },
+        { "3": "거" },
+        { "4": "미" },
+        { "5": "그" },
+        { "6": "네" },
+        { "7": "고" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
     }
+
   ],
   "step2": [
     {
-      "consonant": "ㄴ",
       "postion": "0",
+      "answer": "나",
       "example": "비",
-      "answer": "나",
-      "questions": [
-        { "1": "고" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "버" },
-        { "7": "스" },
-        { "8": "호" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
-      "lottiejson": "butterfly.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_90-nvoice_kyuri_2.2.2_0b928e821609abbd326587fe21059428-1655340388860"
-    },
-    {
-      "consonant": "ㄴ",
-      "postion": "0",
-      "example": "구리",
-      "answer": "너",
-      "questions": [
-        { "1": "나" },
-        { "2": "냐" },
-        { "3": "기" },
-        { "4": "너" },
-        { "5": "스" },
-        { "6": "가" },
-        { "7": "지" },
-        { "8": "거" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
-      "lottiejson": "raccoon.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_113-nvoice_kyuri_2.2.2_68f8fa539d0ec6463028777c6255598c-1655360185883"
-    },
-    {
-      "consonant": "ㄴ",
-      "postion": "0",
-      "example": "팔",
-      "answer": "나",
-      "questions": [
-        { "1": "교" },
-        { "2": "나" },
-        { "3": "기" },
-        { "4": "버" },
-        { "5": "스" },
-        { "6": "가" },
-        { "7": "지" },
-        { "8": "거" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#fcf4c0",
-      "lottiejson": "trumpet.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_415-nvoice_kyuri_2.2.2_813dcfb4c47da6c414f22121dcf5b262-1655363756348"
-    },
-    {
-      "consonant": "ㄴ",
-      "postion": "1",
-      "example": "해",
-      "answer": "녀",
-      "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "구" },
-        { "4": "오" },
-        { "5": "이" },
-        { "6": "녀" },
-        { "7": "사" },
-        { "8": "탕" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
+      "bgColor": "#99DAE9",
       "lottiejson": "",
-      "image": "femalediver",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_318-nvoice_kyuri_2.2.2_27baeaf149260bd828b579f0647f8354-1655363791291"
-    },
-    {
-      "consonant": "ㄴ",
-      "postion": "0",
-      "example": "인",
-      "answer": "노",
+      "image": "butterfly",
+      "type": "lottie",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_348-nvoice_kyuri_2.2.3_0b928e821609abbd326587fe21059428-1655880131068",
       "questions": [
-        { "1": "배" },
-        { "2": "교" },
-        { "3": "아" },
-        { "4": "이" },
-        { "5": "스" },
-        { "6": "크" },
-        { "7": "노" },
-        { "8": "초" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
-      "lottiejson": "",
-      "image": "grandparents",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_414-nvoice_kyuri_2.2.2_3673d6192dff7a9961c8d35a2f66afd9-1655363823741"
-    },
-    {
-      "consonant": "ㄴ",
-      "postion": "0",
-      "example": "나",
-      "answer": "누",
-      "questions": [
-        { "1": "하" },
-        { "2": "마" },
-        { "3": "가" },
-        { "4": "지" },
-        { "5": "소" },
-        { "6": "누" },
-        { "7": "소" },
+        { "1": "누" },
+        { "2": "구" },
+        { "3": "나" },
+        { "4": "사" },
+        { "5": "너" },
+        { "6": "구" },
+        { "7": "리" },
         { "8": "녀" }
       ],
       "delayMillis": [
@@ -491,120 +242,26 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#fa8166",
-      "lottiejson": "girl.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_407-nvoice_kyuri_2.2.2_515cfb94b400ce77928c64523b1792f2-1655363844424"
+      ]
     },
     {
-      "consonant": "ㄴ",
       "postion": "0",
-      "example": "욕",
-      "answer": "뉴",
-      "questions": [
-        { "1": "가" },
-        { "2": "뉴" },
-        { "3": "거" },
-        { "4": "미" },
-        { "5": "고" },
-        { "6": "구" },
-        { "7": "마" },
-        { "8": "그" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
-      "lottiejson": "",
-      "image": "newyork",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_267-nvoice_kyuri_2.2.2_69598a60ab2f60025193fc27420e402a-1655363883495"
-    },
-    {
-      "consonant": "ㄴ",
-      "postion": "0",
-      "example": "트",
-      "answer": "니",
-      "questions": [
-        { "1": "니" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "버" },
-        { "7": "스" },
-        { "8": "고" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
-      "lottiejson": "",
-      "image": "sweater",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_352-nvoice_kyuri_2.2.2_6e769ff542d1cafb3a051262e4d4f186-1655363945617"
-    },
-    {
-      "consonant": "ㄴ",
-      "postion": "0",
-      "example": "트북",
-      "answer": "노",
-      "questions": [
-        { "1": "호" },
-        { "2": "랑" },
-        { "3": "이" },
-        { "4": "노" },
-        { "5": "사" },
-        { "6": "자" },
-        { "7": "악" },
-        { "8": "어" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "answer": "누",
+      "example": "나",
       "bgColor": "#3490dc",
       "lottiejson": "",
-      "image": "laptop",
+      "image": "girl",
       "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_16-nvoice_kyuri_2.2.2_44962ea565608c45eada4e5b82fcec89-1655364385381"
-    },
-    {
-      "consonant": "ㄴ",
-      "postion": "0",
-      "example": "무",
-      "answer": "나",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_185-nvoice_kyuri_2.2.3_515cfb94b400ce77928c64523b1792f2-1655880140290",
       "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "사" },
-        { "4": "과" },
-        { "5": "겨" },
-        { "6": "바" },
-        { "7": "나" },
-        { "8": "비" }
+        { "1": "누" },
+        { "2": "구" },
+        { "3": "나" },
+        { "4": "사" },
+        { "5": "너" },
+        { "6": "구" },
+        { "7": "리" },
+        { "8": "녀" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -615,60 +272,178 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "나",
+      "example": "이",
       "bgColor": "#d8b499",
-      "lottiejson": "tree.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.2_95-nvoice_kyuri_2.2.2_6ed7cb29abccb734bfc0db421fabb17e-1655364322936"
+      "lottiejson": "",
+      "image": "adult",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_237-nvoice_kyuri_2.2.3_a4e518304faa2a2ad8437d4a8bc52a10-1655880151990",
+      "questions": [
+        { "1": "누" },
+        { "2": "구" },
+        { "3": "나" },
+        { "4": "사" },
+        { "5": "너" },
+        { "6": "구" },
+        { "7": "리" },
+        { "8": "녀" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "너",
+      "example": "구리",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "raccoon",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_63-nvoice_kyuri_2.2.3_68f8fa539d0ec6463028777c6255598c-1655880162098",
+      "questions": [
+        { "1": "누" },
+        { "2": "구" },
+        { "3": "나" },
+        { "4": "사" },
+        { "5": "너" },
+        { "6": "구" },
+        { "7": "리" },
+        { "8": "녀" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "나",
+      "example": "무",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "tree",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_369-nvoice_kyuri_2.2.3_6ed7cb29abccb734bfc0db421fabb17e-1655880174977",
+      "questions": [
+        { "1": "누" },
+        { "2": "구" },
+        { "3": "나" },
+        { "4": "사" },
+        { "5": "너" },
+        { "6": "구" },
+        { "7": "리" },
+        { "8": "녀" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "나",
+      "example": "사",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "bolt",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_348-nvoice_kyuri_2.2.3_19ecfba0a698a3da0a366e0305834b04-1655880191866",
+      "questions": [
+        { "1": "누" },
+        { "2": "구" },
+        { "3": "나" },
+        { "4": "사" },
+        { "5": "너" },
+        { "6": "구" },
+        { "7": "리" },
+        { "8": "녀" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "누",
+      "example": "구",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "question",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_288-nvoice_kyuri_2.2.3_58b881248862eb3f47f78ef6f119c8c0-1655880202612",
+      "questions": [
+        { "1": "누" },
+        { "2": "구" },
+        { "3": "나" },
+        { "4": "사" },
+        { "5": "너" },
+        { "6": "구" },
+        { "7": "리" },
+        { "8": "녀" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
     }
   ],
   "step3": [
     {
-      "consonant": "ㄷ",
       "postion": "0",
-      "example": "람쥐",
-      "answer": "다",
-      "questions": [
-        { "1": "고" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "다" },
-        { "7": "스" },
-        { "8": "호" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "answer": "두",
+      "example": "유",
       "bgColor": "#d8b499",
-      "lottiejson": "squirrel.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_80-nvoice_kyuri_2.2.3_6ec74f2c4e2913970575bf79c66445ec-1655427110400"
-    },
-    {
-      "consonant": "ㄷ",
-      "postion": "0",
-      "example": "위",
-      "answer": "더",
+      "lottiejson": "",
+      "image": "soymilk",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_154-nvoice_kyuri_2.2.3_ffd794cd2b41c62ee0d797f5c5d02509-1655880217074",
       "questions": [
-        { "1": "나" },
+        { "1": "두" },
         { "2": "더" },
-        { "3": "기" },
-        { "4": "너" },
-        { "5": "스" },
-        { "6": "가" },
-        { "7": "지" },
-        { "8": "거" }
+        { "3": "지" },
+        { "4": "다" },
+        { "5": "리" },
+        { "6": "미" },
+        { "7": "도" },
+        { "8": "시" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -679,27 +454,56 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
-      "lottiejson": "summer.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_173-nvoice_kyuri_2.2.3_2387a5b5d9c66d31a52fb16cfa403953-1655427159133"
+      ]
     },
     {
-      "consonant": "ㄷ",
       "postion": "0",
-      "example": "장",
-      "answer": "도",
+      "answer": "다",
+      "example": "리",
+      "bgColor": "#96ddff",
+      "lottiejson": "",
+      "image": "bridge",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_272-nvoice_kyuri_2.2.3_28f0307f347678af5c21b523c803dd57-1655880236329",
+      "questions": [
+        { "1": "두" },
+        { "2": "더" },
+        { "3": "지" },
+        { "4": "다" },
+        { "5": "리" },
+        { "6": "미" },
+        { "7": "도" },
+        { "8": "시" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "두",
+      "example": "루미",
+      "bgColor": "#3490dc",
+      "lottiejson": "",
+      "image": "redcrownedcrane",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_61-nvoice_kyuri_2.2.3_21b75d90d4dea7968d62d8c116ce8205-1655880249259",
       "questions": [
         { "1": "도" },
-        { "2": "나" },
-        { "3": "기" },
-        { "4": "버" },
-        { "5": "스" },
-        { "6": "가" },
-        { "7": "지" },
-        { "8": "거" }
+        { "2": "시" },
+        { "3": "두" },
+        { "4": "더" },
+        { "5": "지" },
+        { "6": "댜" },
+        { "7": "도" },
+        { "8": "시" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -710,58 +514,26 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#fcf4c0",
-      "lottiejson": "",
-      "image": "stamp",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_370-nvoice_kyuri_2.2.3_b1eb464adea508df424811e580f5150a-1655427185978"
+      ]
     },
     {
-      "consonant": "ㄷ",
       "postion": "0",
-      "example": "더지",
       "answer": "두",
-      "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "구" },
-        { "4": "두" },
-        { "5": "이" },
-        { "6": "녀" },
-        { "7": "사" },
-        { "8": "탕" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
+      "example": "부",
+      "bgColor": "#524ded",
       "lottiejson": "",
-      "image": "mole",
+      "image": "tofu",
       "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_350-nvoice_kyuri_2.2.3_b60f608b967286e14327f270182cb383-1655427211918"
-    },
-    {
-      "consonant": "ㄷ",
-      "postion": "0",
-      "example": "라마",
-      "answer": "드",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_208-nvoice_kyuri_2.2.3_fe400613b355af09da06bc0c79cba041-1655880261307",
       "questions": [
-        { "1": "배" },
-        { "2": "교" },
-        { "3": "아" },
-        { "4": "이" },
-        { "5": "드" },
-        { "6": "크" },
-        { "7": "노" },
-        { "8": "초" }
+        { "1": "도" },
+        { "2": "시" },
+        { "3": "두" },
+        { "4": "더" },
+        { "5": "지" },
+        { "6": "댜" },
+        { "7": "도" },
+        { "8": "시" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -772,120 +544,86 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
-      "lottiejson": "hackintosh.json",
-      "image": "",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_64-nvoice_kyuri_2.2.3_7227dfdf9fe7ba25c20af1297259ea0c-1655427238860"
+      ]
     },
     {
-      "consonant": "ㄷ",
       "postion": "0",
-      "example": "리미",
+      "answer": "도",
+      "example": "시",
+      "bgColor": "#4fabf7",
+      "lottiejson": "",
+      "image": "buildings",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_417-nvoice_kyuri_2.2.3_e1847a819b6e27657d12df874598414e-1655880272897",
+      "questions": [
+        { "1": "도" },
+        { "2": "시" },
+        { "3": "두" },
+        { "4": "더" },
+        { "5": "지" },
+        { "6": "댜" },
+        { "7": "도" },
+        { "8": "시" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
       "answer": "다",
-      "questions": [
-        { "1": "하" },
-        { "2": "마" },
-        { "3": "가" },
-        { "4": "지" },
-        { "5": "소" },
-        { "6": "다" },
-        { "7": "소" },
-        { "8": "녀" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#fa8166",
+      "example": "리미",
+      "bgColor": "#d8b499",
       "lottiejson": "",
       "image": "iron",
       "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_306-nvoice_kyuri_2.2.3_848e15b202d8bc5708dc2103dec9027b-1655427263240"
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_306-nvoice_kyuri_2.2.3_848e15b202d8bc5708dc2103dec9027b-1655880284439",
+      "questions": [
+        { "1": "도" },
+        { "2": "시" },
+        { "3": "두" },
+        { "4": "더" },
+        { "5": "지" },
+        { "6": "다" },
+        { "7": "도" },
+        { "8": "시" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
     },
     {
-      "consonant": "ㄷ",
       "postion": "0",
-      "example": "라이기",
-      "answer": "드",
-      "questions": [
-        { "1": "가" },
-        { "2": "뉴" },
-        { "3": "거" },
-        { "4": "미" },
-        { "5": "고" },
-        { "6": "구" },
-        { "7": "드" },
-        { "8": "그" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
-      "lottiejson": "",
-      "image": "dryer",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_346-nvoice_kyuri_2.2.3_705dc50ca554793d73b478ca5c36cef6-1655427335057"
-    },
-    {
-      "consonant": "ㄷ",
-      "postion": "1",
-      "example": "사리",
-      "answer": "다",
-      "questions": [
-        { "1": "니" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "버" },
-        { "7": "다" },
-        { "8": "고" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "answer": "두",
+      "example": "더지",
       "bgColor": "#d8b499",
       "lottiejson": "",
-      "image": "ladder",
+      "image": "mole",
       "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_122-nvoice_kyuri_2.2.3_efcb563043159da4b2af3b23f2512b26-1655427371114"
-    },
-    {
-      "consonant": "ㄷ",
-      "postion": "0",
-      "example": "토리",
-      "answer": "도",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_350-nvoice_kyuri_2.2.3_b60f608b967286e14327f270182cb383-1655880296365",
       "questions": [
-        { "1": "호" },
-        { "2": "랑" },
-        { "3": "이" },
-        { "4": "도" },
-        { "5": "사" },
-        { "6": "자" },
-        { "7": "악" },
-        { "8": "어" }
+        { "1": "도" },
+        { "2": "시" },
+        { "3": "두" },
+        { "4": "더" },
+        { "5": "지" },
+        { "6": "다" },
+        { "7": "도" },
+        { "8": "시" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -896,246 +634,28 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#3490dc",
-      "lottiejson": "",
-      "image": "acorn",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_291-nvoice_kyuri_2.2.3_35c68a5f9d878dbea1a91b93712654a8-1655427404421"
-    },
-    {
-      "consonant": "ㄷ",
-      "postion": "0",
-      "example": "형",
-      "answer": "도",
-      "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "사" },
-        { "4": "도" },
-        { "5": "겨" },
-        { "6": "바" },
-        { "7": "나" },
-        { "8": "비" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
-      "lottiejson": "reflect.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_179-nvoice_kyuri_2.2.3_6d0dadd81ea68120df1b856528ef8e0b-1655427438247"
+      ]
     }
   ],
   "step4": [
     {
-      "consonant": "ㄹ",
       "postion": "0",
-      "example": "람쥐",
-      "answer": "다",
-      "questions": [
-        { "1": "고" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "다" },
-        { "7": "스" },
-        { "8": "호" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "answer": "라",
+      "example": "디오",
       "bgColor": "#d8b499",
-      "lottiejson": "squirrel.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_80-nvoice_kyuri_2.2.3_6ec74f2c4e2913970575bf79c66445ec-1655427110400"
-    },
-    {
-      "consonant": "ㄹ",
-      "postion": "0",
-      "example": "위",
-      "answer": "더",
-      "questions": [
-        { "1": "나" },
-        { "2": "더" },
-        { "3": "기" },
-        { "4": "너" },
-        { "5": "스" },
-        { "6": "가" },
-        { "7": "지" },
-        { "8": "거" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
-      "lottiejson": "summer.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_173-nvoice_kyuri_2.2.3_2387a5b5d9c66d31a52fb16cfa403953-1655427159133"
-    },
-    {
-      "consonant": "ㄹ",
-      "postion": "0",
-      "example": "장",
-      "answer": "도",
-      "questions": [
-        { "1": "도" },
-        { "2": "나" },
-        { "3": "기" },
-        { "4": "버" },
-        { "5": "스" },
-        { "6": "가" },
-        { "7": "지" },
-        { "8": "거" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#fcf4c0",
       "lottiejson": "",
-      "image": "stamp",
+      "image": "radio",
       "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_370-nvoice_kyuri_2.2.3_b1eb464adea508df424811e580f5150a-1655427185978"
-    },
-    {
-      "consonant": "ㄹ",
-      "postion": "0",
-      "example": "더지",
-      "answer": "두",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_171-nvoice_kyuri_2.2.3_a50c9c5f4c26ae284d63574983ed0c85-1655880322928",
       "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "구" },
-        { "4": "두" },
-        { "5": "이" },
-        { "6": "녀" },
-        { "7": "사" },
-        { "8": "탕" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
-      "lottiejson": "",
-      "image": "mole",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_350-nvoice_kyuri_2.2.3_b60f608b967286e14327f270182cb383-1655427211918"
-    },
-    {
-      "consonant": "ㄹ",
-      "postion": "0",
-      "example": "라마",
-      "answer": "드",
-      "questions": [
-        { "1": "배" },
-        { "2": "교" },
-        { "3": "아" },
-        { "4": "이" },
-        { "5": "드" },
-        { "6": "크" },
-        { "7": "노" },
-        { "8": "초" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
-      "lottiejson": "hackintosh.json",
-      "image": "",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_64-nvoice_kyuri_2.2.3_7227dfdf9fe7ba25c20af1297259ea0c-1655427238860"
-    },
-    {
-      "consonant": "ㄹ",
-      "postion": "0",
-      "example": "리미",
-      "answer": "다",
-      "questions": [
-        { "1": "하" },
-        { "2": "마" },
-        { "3": "가" },
-        { "4": "지" },
-        { "5": "소" },
-        { "6": "다" },
-        { "7": "소" },
-        { "8": "녀" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#fa8166",
-      "lottiejson": "",
-      "image": "iron",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_306-nvoice_kyuri_2.2.3_848e15b202d8bc5708dc2103dec9027b-1655427263240"
-    },
-    {
-      "consonant": "ㄹ",
-      "postion": "0",
-      "example": "라이기",
-      "answer": "드",
-      "questions": [
-        { "1": "가" },
-        { "2": "뉴" },
-        { "3": "거" },
-        { "4": "미" },
+        { "1": "두" },
+        { "2": "루" },
+        { "3": "미" },
+        { "4": "저" },
         { "5": "고" },
-        { "6": "구" },
-        { "7": "드" },
-        { "8": "그" }
+        { "6": "리" },
+        { "7": "라" },
+        { "8": "디" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -1146,27 +666,26 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#99dae9",
-      "lottiejson": "",
-      "image": "dryer",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_346-nvoice_kyuri_2.2.3_705dc50ca554793d73b478ca5c36cef6-1655427335057"
+      ]
     },
     {
-      "consonant": "ㄹ",
       "postion": "1",
-      "example": "사리",
-      "answer": "다",
+      "answer": "리",
+      "example": "다",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "bridge",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_272-nvoice_kyuri_2.2.3_28f0307f347678af5c21b523c803dd57-1655880335555",
       "questions": [
-        { "1": "니" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "버" },
-        { "7": "다" },
-        { "8": "고" }
+        { "1": "두" },
+        { "2": "루" },
+        { "3": "미" },
+        { "4": "저" },
+        { "5": "고" },
+        { "6": "리" },
+        { "7": "라" },
+        { "8": "디" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -1177,58 +696,26 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
-      "lottiejson": "",
-      "image": "ladder",
-      "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_122-nvoice_kyuri_2.2.3_efcb563043159da4b2af3b23f2512b26-1655427371114"
+      ]
     },
     {
-      "consonant": "ㄹ",
-      "postion": "0",
-      "example": "토리",
-      "answer": "도",
-      "questions": [
-        { "1": "호" },
-        { "2": "랑" },
-        { "3": "이" },
-        { "4": "도" },
-        { "5": "사" },
-        { "6": "자" },
-        { "7": "악" },
-        { "8": "어" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "postion": "1",
+      "answer": "리",
+      "example": "오",
       "bgColor": "#3490dc",
       "lottiejson": "",
-      "image": "acorn",
+      "image": "duck",
       "type": "",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_291-nvoice_kyuri_2.2.3_35c68a5f9d878dbea1a91b93712654a8-1655427404421"
-    },
-    {
-      "consonant": "ㄹ",
-      "postion": "0",
-      "example": "형",
-      "answer": "도",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_177-nvoice_kyuri_2.2.3_b610d25b04a1f2ae7438ea9ec4b0e914-1655880349984",
       "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "사" },
-        { "4": "도" },
-        { "5": "겨" },
-        { "6": "바" },
-        { "7": "나" },
-        { "8": "비" }
+        { "1": "두" },
+        { "2": "루" },
+        { "3": "미" },
+        { "4": "저" },
+        { "5": "고" },
+        { "6": "리" },
+        { "7": "라" },
+        { "8": "디" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -1239,246 +726,148 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "2",
+      "answer": "리",
+      "example": "너구",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "raccoon",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_63-nvoice_kyuri_2.2.3_68f8fa539d0ec6463028777c6255598c-1655880364700",
+      "questions": [
+        { "1": "라" },
+        { "2": "디" },
+        { "3": "오" },
+        { "4": "리" },
+        { "5": "두" },
+        { "6": "루" },
+        { "7": "미" },
+        { "8": "거" }
       ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "리",
+      "example": "머",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "head",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_64-nvoice_kyuri_2.2.3_eeac87bac8ac9bc551e77f26eaef44b6-1655880375665",
+      "questions": [
+        { "1": "라" },
+        { "2": "디" },
+        { "3": "오" },
+        { "4": "리" },
+        { "5": "두" },
+        { "6": "루" },
+        { "7": "미" },
+        { "8": "거" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "2",
+      "answer": "리",
+      "example": "저고",
       "bgColor": "#d8b499",
-      "lottiejson": "reflect.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_179-nvoice_kyuri_2.2.3_6d0dadd81ea68120df1b856528ef8e0b-1655427438247"
+      "lottiejson": "",
+      "image": "hanbok",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_4-nvoice_kyuri_2.2.3_88cc0bd1b1a9d57564fa976b4dcb2a42-1655880385725",
+      "questions": [
+        { "1": "라" },
+        { "2": "디" },
+        { "3": "오" },
+        { "4": "리" },
+        { "5": "두" },
+        { "6": "루" },
+        { "7": "미" },
+        { "8": "거" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "루",
+      "example": "두미",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "redcrownedcrane",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_61-nvoice_kyuri_2.2.3_21b75d90d4dea7968d62d8c116ce8205-1655880399088",
+      "questions": [
+        { "1": "라" },
+        { "2": "디" },
+        { "3": "오" },
+        { "4": "리" },
+        { "5": "두" },
+        { "6": "루" },
+        { "7": "미" },
+        { "8": "거" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
     }
   ],
   "step5": [
     {
-      "consonant": "ㄱ",
       "postion": "0",
-      "example": "디오",
-      "answer": "라",
-      "questions": [
-        { "1": "고" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "라" },
-        { "6": "버" },
-        { "7": "스" },
-        { "8": "호" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
+      "answer": "모",
+      "example": "기",
+      "bgColor": "#40c1fa",
       "lottiejson": "",
-      "image": "sweetpotato",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_171-nvoice_kyuri_2.2.3_a50c9c5f4c26ae284d63574983ed0c85-1655452472578"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "그",
-      "answer": "러",
-      "questions": [
-        { "1": "교" },
-        { "2": "과" },
-        { "3": "기" },
-        { "4": "버" },
-        { "5": "스" },
-        { "6": "가" },
-        { "7": "러" },
-        { "8": "거" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#1947e5",
-      "lottiejson": "train.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_217-nvoice_kyuri_2.2.3_bb270fa9e25114a46cd6033844d5e4be-1655452490758"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "면",
-      "answer": "라",
-      "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "구" },
-        { "4": "오" },
-        { "5": "이" },
-        { "6": "새" },
-        { "7": "사" },
-        { "8": "라" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#7c4aba",
-      "lottiejson": "",
-      "image": "highheels",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_0-nvoice_kyuri_2.2.3_df08061676e64f825a6ca5eb54b06747-1655452511365"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "미콘",
-      "answer": "레",
-      "questions": [
-        { "1": "자" },
-        { "2": "동" },
-        { "3": "차" },
-        { "4": "거" },
-        { "5": "고" },
-        { "6": "구" },
-        { "7": "마" },
-        { "8": "나" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#e96211",
-      "lottiejson": "spider.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_201-nvoice_kyuri_2.2.3_cf0544bea059cb37beafae7bd936cb6d-1655452531224"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "봇",
-      "answer": "로",
-      "questions": [
-        { "1": "배" },
-        { "2": "교" },
-        { "3": "아" },
-        { "4": "이" },
-        { "5": "스" },
-        { "6": "로" },
-        { "7": "림" },
-        { "8": "초" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#3490dc",
-      "lottiejson": "publictransport.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_422-nvoice_kyuri_2.2.3_573ec14880bf27b465204fce053db305-1655452563612"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "켓",
-      "answer": "로",
-      "questions": [
-        { "1": "하" },
-        { "2": "마" },
-        { "3": "가" },
-        { "4": "세" },
-        { "5": "소" },
-        { "6": "갸" },
-        { "7": "로" },
-        { "8": "겨" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#7c4aba",
-      "lottiejson": "furniture.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_431-nvoice_kyuri_2.2.3_3057b2fc058dd506d4e251430f7a38ee-1655453168264"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "비",
-      "answer": "루",
-      "questions": [
-        { "1": "루" },
-        { "2": "마" },
-        { "3": "거" },
-        { "4": "미" },
-        { "5": "고" },
-        { "6": "구" },
-        { "7": "마" },
-        { "8": "그" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
-      "bgColor": "#d8b499",
-      "lottiejson": "",
-      "image": "swing",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_162-nvoice_kyuri_2.2.3_65c6cf883ea1e2e5f30b0fb7a285b44d-1655452586490"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "0",
-      "example": "듬",
-      "answer": "리",
+      "image": "mosquito",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_344-nvoice_kyuri_2.2.3_9ececedfdfbcd0dd51bb2203d6e851af-1655880411290",
       "questions": [
         { "1": "거" },
-        { "2": "나" },
-        { "3": "비" },
-        { "4": "기" },
-        { "5": "가" },
-        { "6": "리" },
-        { "7": "스" },
-        { "8": "고" }
+        { "2": "미" },
+        { "3": "마" },
+        { "4": "녀" },
+        { "5": "모" },
+        { "6": "기" },
+        { "7": "미" },
+        { "8": "소" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -1489,27 +878,146 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "미",
+      "example": "소",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "girl",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_50-nvoice_kyuri_2.2.3_29160ea40898e4e68860aaff60b2b9e5-1655880425743",
+      "questions": [
+        { "1": "모" },
+        { "2": "미" },
+        { "3": "마" },
+        { "4": "녀" },
+        { "5": "모" },
+        { "6": "기" },
+        { "7": "미" },
+        { "8": "소" }
       ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "모",
+      "example": "자",
+      "bgColor": "#3490dc",
+      "lottiejson": "",
+      "image": "pamelahat",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_312-nvoice_kyuri_2.2.3_2ced8a01f282eab40655304087be3410-1655880435903",
+      "questions": [
+        { "1": "모" },
+        { "2": "미" },
+        { "3": "마" },
+        { "4": "녀" },
+        { "5": "모" },
+        { "6": "기" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "마",
+      "example": "차",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "carriage",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_344-nvoice_kyuri_2.2.3_9083772c850ce421959bbfd89e5d4e74-1655880449017",
+      "questions": [
+        { "1": "모" },
+        { "2": "미" },
+        { "3": "마" },
+        { "4": "녀" },
+        { "5": "모" },
+        { "6": "기" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "마",
+      "example": "치",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "skirt",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_20-nvoice_kyuri_2.2.3_f868685ae9b260e4a7de734e544694df-1655880461193",
+      "questions": [
+        { "1": "모" },
+        { "2": "미" },
+        { "3": "마" },
+        { "4": "녀" },
+        { "5": "모" },
+        { "6": "기" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "마",
+      "example": "녀",
       "bgColor": "#d8b499",
       "lottiejson": "",
-      "image": "eggplant",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_106-nvoice_kyuri_2.2.3_f721554050c89ce4cdab2aedcf8c54c5-1655452616746"
-    },
-    {
-      "consonant": "ㄱ",
-      "postion": "1",
-      "example": "다",
-      "answer": "리",
+      "image": "witch",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_332-nvoice_kyuri_2.2.3_9f5eb3a06182a1500446b1a588e7c1a2-1655880472786",
       "questions": [
-        { "1": "바" },
-        { "2": "지" },
-        { "3": "사" },
-        { "4": "과" },
-        { "5": "겨" },
-        { "6": "바" },
-        { "7": "나" },
-        { "8": "리" }
+        { "1": "모" },
+        { "2": "미" },
+        { "3": "마" },
+        { "4": "녀" },
+        { "5": "모" },
+        { "6": "기" },
+        { "7": "미" },
+        { "8": "소" }
       ],
       "delayMillis": [
         { "1": "1000" },
@@ -1520,43 +1028,1945 @@
         { "6": "2700" },
         { "7": "3100" },
         { "8": "2800" }
-      ],
-      "bgColor": "#3490dc",
-      "lottiejson": "winter.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_272-nvoice_kyuri_2.2.3_28f0307f347678af5c21b523c803dd57-1655452675223"
+      ]
     },
     {
-      "consonant": "ㄱ",
       "postion": "1",
-      "example": "오",
-      "answer": "리",
-      "questions": [
-        { "1": "호" },
-        { "2": "랑" },
-        { "3": "이" },
-        { "4": "구" },
-        { "5": "사" },
-        { "6": "리" },
-        { "7": "악" },
-        { "8": "어" }
-      ],
-      "delayMillis": [
-        { "1": "1000" },
-        { "2": "1300" },
-        { "3": "1800" },
-        { "4": "1200" },
-        { "5": "2900" },
-        { "6": "2700" },
-        { "7": "3100" },
-        { "8": "2800" }
-      ],
+      "answer": "미",
+      "example": "거",
       "bgColor": "#d8b499",
-      "lottiejson": "basketball.json",
-      "image": "",
-      "type": "lottie",
-      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_177-nvoice_kyuri_2.2.3_b610d25b04a1f2ae7438ea9ec4b0e914-1655452650393"
+      "lottiejson": "",
+      "image": "spider",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_197-nvoice_kyuri_2.2.3_9e6a7188db65e4547dc72b40d7451844-1655880483917",
+      "questions": [
+        { "1": "모" },
+        { "2": "미" },
+        { "3": "마" },
+        { "4": "녀" },
+        { "5": "모" },
+        { "6": "기" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step6": [
+    {
+      "postion": "1",
+      "answer": "부",
+      "example": "어",
+      "bgColor": "#40c1fa",
+      "lottiejson": "",
+      "image": "fisherman",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_121-nvoice_kyuri_2.2.3_ecb30c5f38f61497d13bf40aa832e534-1655880512247",
+      "questions": [
+        { "1": "비" },
+        { "2": "누" },
+        { "3": "바" },
+        { "4": "다" },
+        { "5": "버" },
+        { "6": "스" },
+        { "7": "두" },
+        { "8": "부" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "바",
+      "example": "구니",
+      "bgColor": "#3490dc",
+      "lottiejson": "",
+      "image": "basket",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_301-nvoice_kyuri_2.2.3_40368bb023d43f03a08c81802acbc944-1655880525490",
+      "questions": [
+        { "1": "비" },
+        { "2": "누" },
+        { "3": "바" },
+        { "4": "다" },
+        { "5": "버" },
+        { "6": "스" },
+        { "7": "두" },
+        { "8": "부" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "버",
+      "example": "스",
+      "bgColor": "#40c1fa",
+      "lottiejson": "busloader.json",
+      "image": "lottie",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_228-nvoice_kyuri_2.2.3_5ef65f208a41e9842001e60b710794ba-1655880500777",
+      "questions": [
+        { "1": "비" },
+        { "2": "누" },
+        { "3": "바" },
+        { "4": "다" },
+        { "5": "버" },
+        { "6": "스" },
+        { "7": "두" },
+        { "8": "부" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "부",
+      "example": "두",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "tofu",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_208-nvoice_kyuri_2.2.3_fe400613b355af09da06bc0c79cba041-1655880538905",
+      "questions": [
+        { "1": "비" },
+        { "2": "누" },
+        { "3": "바" },
+        { "4": "다" },
+        { "5": "버" },
+        { "6": "스" },
+        { "7": "두" },
+        { "8": "부" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "바",
+      "example": "나나",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "banana",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_206-nvoice_kyuri_2.2.3_4608cb58afab38285bf6917aaab43389-1655880552232",
+      "questions": [
+        { "1": "비" },
+        { "2": "누" },
+        { "3": "바" },
+        { "4": "다" },
+        { "5": "버" },
+        { "6": "스" },
+        { "7": "두" },
+        { "8": "부" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "바",
+      "example": "다",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "beach",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_38-nvoice_kyuri_2.2.3_9e1fdd23716855f2cb913c890b014331-1655880565150",
+      "questions": [
+        { "1": "비" },
+        { "2": "누" },
+        { "3": "바" },
+        { "4": "다" },
+        { "5": "버" },
+        { "6": "스" },
+        { "7": "두" },
+        { "8": "부" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "비",
+      "example": "누",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "soap",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_201-nvoice_kyuri_2.2.3_9ddce9310e5156a76e80fc8630ad27b4-1655880585135",
+      "questions": [
+        { "1": "비" },
+        { "2": "누" },
+        { "3": "바" },
+        { "4": "다" },
+        { "5": "버" },
+        { "6": "스" },
+        { "7": "두" },
+        { "8": "부" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step7": [
+    {
+      "postion": "1",
+      "answer": "소",
+      "example": "미",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "girl",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_50-nvoice_kyuri_2.2.3_29160ea40898e4e68860aaff60b2b9e5-1655880600943",
+      "questions": [
+        { "1": "버" },
+        { "2": "스" },
+        { "3": "도" },
+        { "4": "시" },
+        { "5": "야" },
+        { "6": "수" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "소",
+      "example": "리",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "marketing",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_355-nvoice_kyuri_2.2.3_8b274cab260c72c06c64c2bfddb46589-1655880611654",
+      "questions": [
+        { "1": "버" },
+        { "2": "스" },
+        { "3": "도" },
+        { "4": "시" },
+        { "5": "야" },
+        { "6": "수" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "사",
+      "example": "다리",
+      "bgColor": "#3490dc",
+      "lottiejson": "",
+      "image": "ladder",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_122-nvoice_kyuri_2.2.3_efcb563043159da4b2af3b23f2512b26-1655880623986",
+      "questions": [
+        { "1": "사" },
+        { "2": "다" },
+        { "3": "리" },
+        { "4": "시" },
+        { "5": "야" },
+        { "6": "수" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "시",
+      "example": "가",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "cactus",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_298-nvoice_kyuri_2.2.3_36b255d4f0609305fc4a02215e4acb29-1655880642285",
+      "questions": [
+        { "1": "사" },
+        { "2": "다" },
+        { "3": "리" },
+        { "4": "시" },
+        { "5": "야" },
+        { "6": "수" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "수",
+      "example": "야",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "werewolf",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_125-nvoice_kyuri_2.2.3_9ff1b5cf59c93a91320cb4959b1bb8fa-1655880654551",
+      "questions": [
+        { "1": "사" },
+        { "2": "다" },
+        { "3": "리" },
+        { "4": "시" },
+        { "5": "야" },
+        { "6": "수" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "시",
+      "example": "도",
+      "bgColor": "#4fabf7",
+      "lottiejson": "",
+      "image": "buildings",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_417-nvoice_kyuri_2.2.3_e1847a819b6e27657d12df874598414e-1655880667203",
+      "questions": [
+        { "1": "사" },
+        { "2": "다" },
+        { "3": "리" },
+        { "4": "시" },
+        { "5": "야" },
+        { "6": "수" },
+        { "7": "미" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "스",
+      "example": "버",
+      "bgColor": "#40c1fa",
+      "lottiejson": "busloader.json",
+      "image": "lottie",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_228-nvoice_kyuri_2.2.3_5ef65f208a41e9842001e60b710794ba-1655880708747",
+      "questions": [
+        { "1": "사" },
+        { "2": "다" },
+        { "3": "리" },
+        { "4": "시" },
+        { "5": "야" },
+        { "6": "수" },
+        { "7": "스" },
+        { "8": "소" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step8": [
+    {
+      "postion": "0",
+      "answer": "아",
+      "example": "기",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "baby",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_46-nvoice_kyuri_2.2.3_2aa9e7216ce4506f2167894919d75004-1655880734484",
+      "questions": [
+        { "1": "우" },
+        { "2": "유" },
+        { "3": "여" },
+        { "4": "우" },
+        { "5": "어" },
+        { "6": "부" },
+        { "7": "아" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "어",
+      "example": "머니",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "mother",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_312-nvoice_kyuri_2.2.3_acbaa3470fbca9276aff73372a401e3f-1655880749438",
+      "questions": [
+        { "1": "우" },
+        { "2": "유" },
+        { "3": "여" },
+        { "4": "우" },
+        { "5": "어" },
+        { "6": "부" },
+        { "7": "아" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "야",
+      "example": "구",
+      "bgColor": "#3490dc",
+      "lottiejson": "",
+      "image": "baseball2",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_326-nvoice_kyuri_2.2.3_40b824c59fb90e35770e761f6e26208e-1655880761859",
+      "questions": [
+        { "1": "우" },
+        { "2": "유" },
+        { "3": "여" },
+        { "4": "우" },
+        { "5": "어" },
+        { "6": "야" },
+        { "7": "아" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "오",
+      "example": "리",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "duck",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_177-nvoice_kyuri_2.2.3_b610d25b04a1f2ae7438ea9ec4b0e914-1655880774043",
+      "questions": [
+        { "1": "우" },
+        { "2": "유" },
+        { "3": "여" },
+        { "4": "우" },
+        { "5": "어" },
+        { "6": "오" },
+        { "7": "아" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "어",
+      "example": "부",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "fishing",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_121-nvoice_kyuri_2.2.3_ecb30c5f38f61497d13bf40aa832e534-1655884203371",
+      "questions": [
+        { "1": "우" },
+        { "2": "유" },
+        { "3": "여" },
+        { "4": "우" },
+        { "5": "어" },
+        { "6": "부" },
+        { "7": "아" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "여",
+      "example": "우",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "fox",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_248-nvoice_kyuri_2.2.3_c63b1c57b20662c10eaf3aa42f0844b9-1655880815178",
+      "questions": [
+        { "1": "우" },
+        { "2": "유" },
+        { "3": "여" },
+        { "4": "우" },
+        { "5": "어" },
+        { "6": "부" },
+        { "7": "아" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "우",
+      "example": "비",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "raincoat",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_181-nvoice_kyuri_2.2.3_00c502ab39188317138e2bddf3288101-1655880827576",
+      "questions": [
+        { "1": "우" },
+        { "2": "유" },
+        { "3": "여" },
+        { "4": "우" },
+        { "5": "어" },
+        { "6": "부" },
+        { "7": "아" },
+        { "8": "기" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step9": [
+    {
+      "postion": "0",
+      "answer": "저",
+      "example": "고리",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "hanbok",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_4-nvoice_kyuri_2.2.3_88cc0bd1b1a9d57564fa976b4dcb2a42-1655880843951",
+      "questions": [
+        { "1": "자" },
+        { "2": "저" },
+        { "3": "조" },
+        { "4": "주" },
+        { "5": "즈" },
+        { "6": "지" },
+        { "7": "죠" },
+        { "8": "쟈" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "자",
+      "example": "두",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "plum",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_42-nvoice_kyuri_2.2.3_6140029565fac9eeea0ac1bbf594b372-1655880854884",
+      "questions": [
+        { "1": "자" },
+        { "2": "저" },
+        { "3": "조" },
+        { "4": "주" },
+        { "5": "즈" },
+        { "6": "지" },
+        { "7": "죠" },
+        { "8": "쟈" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "주",
+      "example": "머니",
+      "bgColor": "#3490dc",
+      "lottiejson": "",
+      "image": "pocket",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_254-nvoice_kyuri_2.2.3_bc35daeb4eb044766b7e784f7af18327-1655880866493",
+      "questions": [
+        { "1": "자" },
+        { "2": "저" },
+        { "3": "조" },
+        { "4": "주" },
+        { "5": "즈" },
+        { "6": "지" },
+        { "7": "죠" },
+        { "8": "쟈" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "주",
+      "example": "스",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "juice",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_425-nvoice_kyuri_2.2.3_12efc7cfbd1be9b62de41eb9d75f615e-1655880918081",
+      "questions": [
+        { "1": "자" },
+        { "2": "저" },
+        { "3": "조" },
+        { "4": "주" },
+        { "5": "즈" },
+        { "6": "지" },
+        { "7": "죠" },
+        { "8": "쟈" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "지",
+      "example": "도",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "map",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_25-nvoice_kyuri_2.2.3_e89fcc1f8aed5cadea39db00a77cbe05-1655880928981",
+      "questions": [
+        { "1": "자" },
+        { "2": "저" },
+        { "3": "조" },
+        { "4": "주" },
+        { "5": "즈" },
+        { "6": "지" },
+        { "7": "죠" },
+        { "8": "쟈" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "2",
+      "answer": "지",
+      "example": "아버",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "dad",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_423-nvoice_kyuri_2.2.3_65bf5f372f5ee65448b27609d3bebd22-1655880941807",
+      "questions": [
+        { "1": "자" },
+        { "2": "저" },
+        { "3": "조" },
+        { "4": "주" },
+        { "5": "즈" },
+        { "6": "지" },
+        { "7": "죠" },
+        { "8": "쟈" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "주",
+      "example": "우",
+      "bgColor": "#51489a",
+      "lottiejson": "",
+      "image": "galaxy",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_166-nvoice_kyuri_2.2.3_62db22fa1ce11b9bfb350ffdb34c6638-1655880952987",
+      "questions": [
+        { "1": "자" },
+        { "2": "저" },
+        { "3": "조" },
+        { "4": "주" },
+        { "5": "즈" },
+        { "6": "지" },
+        { "7": "죠" },
+        { "8": "쟈" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step10": [
+    {
+      "postion": "0",
+      "answer": "치",
+      "example": "마",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "skirt",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_20-nvoice_kyuri_2.2.3_f868685ae9b260e4a7de734e544694df-1655880989954",
+      "questions": [
+        { "1": "차" },
+        { "2": "챠" },
+        { "3": "처" },
+        { "4": "쳐" },
+        { "5": "초" },
+        { "6": "쵸" },
+        { "7": "추" },
+        { "8": "치" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "2",
+      "answer": "차",
+      "example": "유모",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "babycarriage",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_306-nvoice_kyuri_2.2.3_f688bba47d2419cb1f444eaba018a973-1655881000896",
+      "questions": [
+        { "1": "차" },
+        { "2": "챠" },
+        { "3": "처" },
+        { "4": "쳐" },
+        { "5": "초" },
+        { "6": "쵸" },
+        { "7": "추" },
+        { "8": "치" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "차",
+      "example": "기",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "train",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_124-nvoice_kyuri_2.2.3_42c888cb3122f53395af46918d8cf2eb-1655881012893",
+      "questions": [
+        { "1": "차" },
+        { "2": "챠" },
+        { "3": "처" },
+        { "4": "쳐" },
+        { "5": "초" },
+        { "6": "쵸" },
+        { "7": "추" },
+        { "8": "치" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "추",
+      "example": "고",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "chili",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_96-nvoice_kyuri_2.2.3_2f7e4cd167da385213d458ce059393a2-1655881024020",
+      "questions": [
+        { "1": "차" },
+        { "2": "챠" },
+        { "3": "처" },
+        { "4": "쳐" },
+        { "5": "초" },
+        { "6": "쵸" },
+        { "7": "추" },
+        { "8": "치" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "치",
+      "example": "즈",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "cheese",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_139-nvoice_kyuri_2.2.3_259b11d20c6f75931ace41eb7046808c-1655881036354",
+      "questions": [
+        { "1": "차" },
+        { "2": "챠" },
+        { "3": "처" },
+        { "4": "쳐" },
+        { "5": "초" },
+        { "6": "쵸" },
+        { "7": "추" },
+        { "8": "치" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "차",
+      "example": "마",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "carriage",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_344-nvoice_kyuri_2.2.3_9083772c850ce421959bbfd89e5d4e74-1655881049987",
+      "questions": [
+        { "1": "차" },
+        { "2": "챠" },
+        { "3": "처" },
+        { "4": "쳐" },
+        { "5": "초" },
+        { "6": "쵸" },
+        { "7": "추" },
+        { "8": "치" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "치",
+      "example": "차푸카",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "brushteeth",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_419-nvoice_kyuri_2.2.3_ed114a70e12a4847cb0d3e036eee1b2d-1655881063545",
+      "questions": [
+        { "1": "차" },
+        { "2": "챠" },
+        { "3": "처" },
+        { "4": "쳐" },
+        { "5": "초" },
+        { "6": "쵸" },
+        { "7": "추" },
+        { "8": "치" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step11": [
+    {
+      "postion": "2",
+      "answer": "크",
+      "example": "마스",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "mask",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_38-nvoice_kyuri_2.2.3_e7a05514f0a34eb7a3babb3796d39359-1655881104889",
+      "questions": [
+        { "1": "카" },
+        { "2": "캬" },
+        { "3": "커" },
+        { "4": "켜" },
+        { "5": "코" },
+        { "6": "쿄" },
+        { "7": "쿠" },
+        { "8": "크" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "2",
+      "answer": "크",
+      "example": "마이",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "mike",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_191-nvoice_kyuri_2.2.3_c51d29fa85e2f8c7499ccaf4cb504249-1655881116190",
+      "questions": [
+        { "1": "카" },
+        { "2": "캬" },
+        { "3": "커" },
+        { "4": "켜" },
+        { "5": "코" },
+        { "6": "쿄" },
+        { "7": "쿠" },
+        { "8": "크" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "3",
+      "answer": "카",
+      "example": "치카푸",
+      "bgColor": "#3490dc",
+      "lottiejson": "",
+      "image": "brushteeth",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_25-nvoice_kyuri_2.2.3_c9177788aacdb0ee857943babf71b649-1655881141327",
+      "questions": [
+        { "1": "카" },
+        { "2": "캬" },
+        { "3": "커" },
+        { "4": "켜" },
+        { "5": "코" },
+        { "6": "쿄" },
+        { "7": "쿠" },
+        { "8": "크" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "쿠",
+      "example": "키",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "cookies",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_47-nvoice_kyuri_2.2.3_7a22e09759cb6dfde6049385c1fed4cc-1655881154513",
+      "questions": [
+        { "1": "카" },
+        { "2": "캬" },
+        { "3": "커" },
+        { "4": "켜" },
+        { "5": "코" },
+        { "6": "쿄" },
+        { "7": "쿠" },
+        { "8": "크" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "코",
+      "example": "코아",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "cocoa",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_82-nvoice_kyuri_2.2.3_a238f820424eaf12088bdba7ab36a6a2-1655881164196",
+      "questions": [
+        { "1": "카" },
+        { "2": "캬" },
+        { "3": "커" },
+        { "4": "켜" },
+        { "5": "코" },
+        { "6": "쿄" },
+        { "7": "쿠" },
+        { "8": "크" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "커",
+      "example": "피",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "coffee",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_399-nvoice_kyuri_2.2.3_e5678df8fe981387ec9133b7cd41fa77-1655881175236",
+      "questions": [
+        { "1": "카" },
+        { "2": "캬" },
+        { "3": "커" },
+        { "4": "켜" },
+        { "5": "코" },
+        { "6": "쿄" },
+        { "7": "쿠" },
+        { "8": "크" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "키",
+      "example": "보드",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "keyboard",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_142-nvoice_kyuri_2.2.3_677bbd54d2e4ff9dac0f0e0667575591-1655881211110",
+      "questions": [
+        { "1": "카" },
+        { "2": "캬" },
+        { "3": "커" },
+        { "4": "키" },
+        { "5": "코" },
+        { "6": "쿄" },
+        { "7": "쿠" },
+        { "8": "크" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step12": [
+    {
+      "postion": "0",
+      "answer": "토",
+      "example": "마토",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "tomato",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_381-nvoice_kyuri_2.2.3_0730cf0ddce2739220f18c4ac16eb6cd-1655881263550",
+      "questions": [
+        { "1": "타" },
+        { "2": "탸" },
+        { "3": "터" },
+        { "4": "텨" },
+        { "5": "토" },
+        { "6": "툐" },
+        { "7": "투" },
+        { "8": "튜" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "투",
+      "example": "수",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "baseball",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_362-nvoice_kyuri_2.2.3_e6a1bb36f8b2808655db2a938be50ac6-1655881284414",
+      "questions": [
+        { "1": "타" },
+        { "2": "탸" },
+        { "3": "터" },
+        { "4": "텨" },
+        { "5": "토" },
+        { "6": "툐" },
+        { "7": "투" },
+        { "8": "튜" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "트",
+      "example": "요",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "yacht",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_415-nvoice_kyuri_2.2.3_abdb8b32d2199a81b09108d2de84b938-1655881294625",
+      "questions": [
+        { "1": "트" },
+        { "2": "탸" },
+        { "3": "터" },
+        { "4": "텨" },
+        { "5": "토" },
+        { "6": "툐" },
+        { "7": "투" },
+        { "8": "튜" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "타",
+      "example": "조",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "ostrich",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_125-nvoice_kyuri_2.2.3_ef37a1d6d5070b1508acabd6271a3f80-1655881306336",
+      "questions": [
+        { "1": "트" },
+        { "2": "탸" },
+        { "3": "터" },
+        { "4": "텨" },
+        { "5": "토" },
+        { "6": "툐" },
+        { "7": "타" },
+        { "8": "튜" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "타",
+      "example": "자",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "hitter",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_315-nvoice_kyuri_2.2.3_cb6c5eb2cfab96833b573817a342f8d7-1655881319983",
+      "questions": [
+        { "1": "트" },
+        { "2": "탸" },
+        { "3": "터" },
+        { "4": "텨" },
+        { "5": "토" },
+        { "6": "툐" },
+        { "7": "타" },
+        { "8": "튜" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "타",
+      "example": "치",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "cheetah",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_343-nvoice_kyuri_2.2.3_253f61fb13bb04395c49b78766beeece-1655881334465",
+      "questions": [
+        { "1": "트" },
+        { "2": "탸" },
+        { "3": "터" },
+        { "4": "텨" },
+        { "5": "토" },
+        { "6": "툐" },
+        { "7": "타" },
+        { "8": "튜" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "터",
+      "example": "버",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "butter",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_365-nvoice_kyuri_2.2.3_ab0d82c4eae971e2a49941dd164507f1-1655881352805",
+      "questions": [
+        { "1": "트" },
+        { "2": "탸" },
+        { "3": "터" },
+        { "4": "텨" },
+        { "5": "토" },
+        { "6": "툐" },
+        { "7": "타" },
+        { "8": "튜" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step13": [
+    {
+      "postion": "0",
+      "answer": "포",
+      "example": "도",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "grapes",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_302-nvoice_kyuri_2.2.3_50cddca101ee7b2e5d4c398f8e8dc088-1655881394554",
+      "questions": [
+        { "1": "파" },
+        { "2": "퍼" },
+        { "3": "펴" },
+        { "4": "포" },
+        { "5": "푸" },
+        { "6": "피" },
+        { "7": "퓨" },
+        { "8": "퍄" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "피",
+      "example": "아노",
+      "bgColor": "#25b7d3",
+      "lottiejson": "",
+      "image": "piano",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_78-nvoice_kyuri_2.2.3_cb90b7d02be63e7840fdad845c9ae232-1655881411723",
+      "questions": [
+        { "1": "파" },
+        { "2": "퍼" },
+        { "3": "펴" },
+        { "4": "포" },
+        { "5": "푸" },
+        { "6": "피" },
+        { "7": "퓨" },
+        { "8": "퍄" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "파",
+      "example": "티",
+      "bgColor": "#232e7a",
+      "lottiejson": "",
+      "image": "party",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_3-nvoice_kyuri_2.2.3_146c95ddfec1c1c1eec08302b1b06914-1655881422127",
+      "questions": [
+        { "1": "파" },
+        { "2": "퍼" },
+        { "3": "펴" },
+        { "4": "포" },
+        { "5": "푸" },
+        { "6": "피" },
+        { "7": "퓨" },
+        { "8": "퍄" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "피",
+      "example": "리",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "flute",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_391-nvoice_kyuri_2.2.3_671339994071f6151a0537177397d2e8-1655881431444",
+      "questions": [
+        { "1": "파" },
+        { "2": "퍼" },
+        { "3": "펴" },
+        { "4": "포" },
+        { "5": "푸" },
+        { "6": "피" },
+        { "7": "퓨" },
+        { "8": "퍄" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "피",
+      "example": "자",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "pizza",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_13-nvoice_kyuri_2.2.3_bc70031b922de9cd54641eb6bbffd91f-1655881445805",
+      "questions": [
+        { "1": "파" },
+        { "2": "퍼" },
+        { "3": "펴" },
+        { "4": "포" },
+        { "5": "푸" },
+        { "6": "피" },
+        { "7": "퓨" },
+        { "8": "퍄" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "1",
+      "answer": "프",
+      "example": "수",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "soup",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_318-nvoice_kyuri_2.2.3_fc3ab9da0130c21cab017a343a3d98a5-1655881457732",
+      "questions": [
+        { "1": "파" },
+        { "2": "퍼" },
+        { "3": "펴" },
+        { "4": "포" },
+        { "5": "푸" },
+        { "6": "피" },
+        { "7": "프" },
+        { "8": "퍄" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "파",
+      "example": "도",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "wave",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_276-nvoice_kyuri_2.2.3_14585de30ada441a85834fa21ac57a20-1655881467246",
+      "questions": [
+        { "1": "파" },
+        { "2": "퍼" },
+        { "3": "펴" },
+        { "4": "포" },
+        { "5": "푸" },
+        { "6": "피" },
+        { "7": "퓨" },
+        { "8": "퍄" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    }
+  ],
+  "step14": [
+    {
+      "postion": "0",
+      "answer": "하",
+      "example": "마",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "hippo",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_17-nvoice_kyuri_2.2.3_bf6458892682fd92a0384a19674eef59-1655881481501",
+      "questions": [
+        { "1": "하" },
+        { "2": "햐" },
+        { "3": "허" },
+        { "4": "혀" },
+        { "5": "호" },
+        { "6": "효" },
+        { "7": "후" },
+        { "8": "휴" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "허",
+      "example": "수아비",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "scarecrow",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_280-nvoice_kyuri_2.2.3_c50995e3bce62dcdc0c0bb7cb77442a1-1655881495695",
+      "questions": [
+        { "1": "흐" },
+        { "2": "히" },
+        { "3": "허" },
+        { "4": "혀" },
+        { "5": "호" },
+        { "6": "효" },
+        { "7": "후" },
+        { "8": "휴" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "호",
+      "example": "두",
+      "bgColor": "#3490dc",
+      "lottiejson": "",
+      "image": "walnut",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_257-nvoice_kyuri_2.2.3_456418cbd69193a6a205d693044393d9-1655881505267",
+      "questions": [
+        { "1": "흐" },
+        { "2": "히" },
+        { "3": "허" },
+        { "4": "혀" },
+        { "5": "호" },
+        { "6": "효" },
+        { "7": "후" },
+        { "8": "휴" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "후",
+      "example": "추",
+      "bgColor": "#524ded",
+      "lottiejson": "",
+      "image": "pepper",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_439-nvoice_kyuri_2.2.3_add4efe25c7d33a855b8d6a4d2ced0f0-1655881563249",
+      "questions": [
+        { "1": "흐" },
+        { "2": "히" },
+        { "3": "허" },
+        { "4": "혀" },
+        { "5": "호" },
+        { "6": "효" },
+        { "7": "후" },
+        { "8": "휴" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "휴",
+      "example": "지",
+      "bgColor": "#8ab9b5",
+      "lottiejson": "",
+      "image": "tissue",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_437-nvoice_kyuri_2.2.3_c9f480427f3a519a8e2622ead5e75c02-165d8b4992633",
+      "questions": [
+        { "1": "흐" },
+        { "2": "히" },
+        { "3": "허" },
+        { "4": "혀" },
+        { "5": "호" },
+        { "6": "효" },
+        { "7": "후" },
+        { "8": "휴" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "허",
+      "example": "리",
+      "bgColor": "#d8b499",
+      "lottiejson": "",
+      "image": "diet",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_277-nvoice_kyuri_2.2.3_483f1ba959485c2d38913d62dd4df6c1-1655881597004",
+      "questions": [
+        { "1": "흐" },
+        { "2": "히" },
+        { "3": "허" },
+        { "4": "혀" },
+        { "5": "호" },
+        { "6": "효" },
+        { "7": "후" },
+        { "8": "휴" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
+    },
+    {
+      "postion": "0",
+      "answer": "호",
+      "example": "수",
+      "bgColor": "#62dafa",
+      "lottiejson": "",
+      "image": "pond",
+      "type": "",
+      "url": "https://papago.naver.com/apis/tts/c_lt_kyuri_2.2.3_12-nvoice_kyuri_2.2.3_fb15bd09de79ad5a0623e5b50d1af945-1656345850184",
+      "questions": [
+        { "1": "흐" },
+        { "2": "히" },
+        { "3": "허" },
+        { "4": "혀" },
+        { "5": "호" },
+        { "6": "효" },
+        { "7": "후" },
+        { "8": "휴" }
+      ],
+      "delayMillis": [
+        { "1": "1000" },
+        { "2": "1300" },
+        { "3": "1800" },
+        { "4": "1200" },
+        { "5": "2900" },
+        { "6": "2700" },
+        { "7": "3100" },
+        { "8": "2800" }
+      ]
     }
   ]
 }

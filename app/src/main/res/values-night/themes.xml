@@ -48,4 +48,15 @@
         <item name="android:navigationBarColor">@color/mainStatusBarColor</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="MyItemFont" parent="android:Widget.TextView">
+        <item name="android:actionMenuTextColor">#ffbeba</item>
+        <item name="android:fontFamily">@font/cookierunregular</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:fontFamily">@font/cookierunregular</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
 </resources>

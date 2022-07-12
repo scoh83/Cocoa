@@ -1,5 +1,6 @@
 package com.www.cocoastudio
 import android.content.Intent
+import android.graphics.Color
 import android.media.AudioManager
 import android.media.SoundPool
 import androidx.appcompat.app.AppCompatActivity
@@ -45,11 +46,11 @@ class IntroActivity : AppCompatActivity() {
         }, 2000L)
 
         Handler().postDelayed(Runnable {
-            startActivity(Intent(this@IntroActivity, MainActivity::class.java))
+            startActivity(Intent(this@IntroActivity, HomeActivity::class.java))
             finish()
         }, 4000L)
 
-
+        getWindow().setNavigationBarColor(Color.parseColor("#FF3700B3"))    // set color only navigation bar
 
     }
 }

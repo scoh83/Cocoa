@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/detailView"
-    android:background="#1947e5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailActivity">
@@ -12,23 +11,11 @@
         android:id="@+id/detailbg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ffbd11"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
-
-<!--        <ImageView-->
-<!--            android:visibility="visible"-->
-<!--            android:id="@+id/gameOver"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:src="@drawable/penguin"-->
-<!--            android:layout_margin="10dp"-->
-<!--            app:layout_constraintBottom_toTopOf="@+id/gameOverMsg"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent" />-->
 
 
         <com.airbnb.lottie.LottieAnimationView
@@ -139,6 +126,20 @@
         android:textSize="30dp"
         app:layout_constraintTop_toTopOf="@+id/detailLogo"
         app:layout_constraintLeft_toRightOf="@+id/detailLogo" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/txtScene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cookierunregular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="@+id/detailLogo"
+        app:layout_constraintLeft_toRightOf="@+id/score" />
+
     <LinearLayout
         android:id="@+id/view_bg"
         android:layout_width="wrap_content"
@@ -147,6 +148,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <TextView
             android:id="@+id/title1"
             android:layout_width="wrap_content"
@@ -204,6 +206,7 @@
             android:layout_height="match_parent">
 
             <com.google.android.material.circularreveal.CircularRevealGridLayout
+                android:id="@+id/circularRevealGridLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:layout_editor_absoluteX="0dp"
@@ -217,6 +220,7 @@
                     android:layout_column="0"
                     android:layout_columnWeight="1"
                     android:layout_gravity="center|top">
+
                     <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/textLottie1"
                         android:layout_width="50dp"
@@ -225,17 +229,24 @@
                         app:lottie_autoPlay="true"
                         app:lottie_fileName="boom.json"
                         app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
                     <TextView
                         android:id="@+id/textView1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#f24e1e"
+                        android:textColor="#6200EE"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame2"
                     android:layout_width="wrap_content"
@@ -256,15 +267,21 @@
 
                     <TextView
                         android:id="@+id/textView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#ff7262"
+                        android:textColor="#FE9A2E"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame3"
                     android:layout_width="wrap_content"
@@ -285,15 +302,21 @@
 
                     <TextView
                         android:id="@+id/textView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#a259ff"
+                        android:textColor="#FF89BB"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame4"
                     android:layout_width="wrap_content"
@@ -301,7 +324,9 @@
                     android:layout_row="0"
                     android:layout_column="3"
                     android:layout_columnWeight="1"
-                    android:layout_gravity="center|top">
+                    android:layout_gravity="center|top"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/textLottie4"
@@ -314,44 +339,21 @@
 
                     <TextView
                         android:id="@+id/textView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#0acf83"
+                        android:textColor="#03DAC5"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
-<!--                <FrameLayout-->
-<!--                    android:id="@+id/txtFrame5"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_row="0"-->
-<!--                    android:layout_column="4"-->
-<!--                    android:layout_columnWeight="1"-->
-<!--                    android:layout_gravity="center|top">-->
 
-<!--                    <com.airbnb.lottie.LottieAnimationView-->
-<!--                        android:id="@+id/textLottie5"-->
-<!--                        android:layout_width="50dp"-->
-<!--                        android:layout_height="50dp"-->
-<!--                        android:visibility="invisible"-->
-<!--                        app:lottie_autoPlay="true"-->
-<!--                        app:lottie_fileName="boom.json"-->
-<!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
-
-<!--                    <TextView-->
-<!--                        android:id="@+id/textView5"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:fontFamily="@font/cookierunbold"-->
-<!--                        android:gravity="center_horizontal"-->
-<!--                        android:text="기"-->
-<!--                        android:textColor="#FF89BB"-->
-<!--                        android:textSize="50dp"-->
-<!--                        android:visibility="invisible" />-->
-<!--                </FrameLayout>-->
                 <FrameLayout
                     android:id="@+id/txtFrame6"
                     android:layout_width="wrap_content"
@@ -372,15 +374,21 @@
 
                     <TextView
                         android:id="@+id/textView6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#f24e1e"
+                        android:textColor="#6200EE"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame7"
                     android:layout_width="wrap_content"
@@ -401,15 +409,21 @@
 
                     <TextView
                         android:id="@+id/textView7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#ff7262"
+                        android:textColor="#FE9A2E"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame8"
                     android:layout_width="wrap_content"
@@ -430,15 +444,21 @@
 
                     <TextView
                         android:id="@+id/textView8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#a259ff"
+                        android:textColor="#FF89BB"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame9"
                     android:layout_width="wrap_content"
@@ -459,44 +479,49 @@
 
                     <TextView
                         android:id="@+id/textView9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#0acf83"
+                        android:textColor="#03DAC5"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
-<!--                <FrameLayout-->
-<!--                    android:id="@+id/txtFrame10"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_row="0"-->
-<!--                    android:layout_column="4"-->
-<!--                    android:layout_columnWeight="1"-->
-<!--                    android:layout_gravity="center|top">-->
+                <!--                <FrameLayout-->
+                <!--                    android:id="@+id/txtFrame10"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_row="0"-->
+                <!--                    android:layout_column="4"-->
+                <!--                    android:layout_columnWeight="1"-->
+                <!--                    android:layout_gravity="center|top">-->
 
-<!--                    <com.airbnb.lottie.LottieAnimationView-->
-<!--                        android:id="@+id/textLottie10"-->
-<!--                        android:layout_width="50dp"-->
-<!--                        android:layout_height="50dp"-->
-<!--                        android:visibility="invisible"-->
-<!--                        app:lottie_autoPlay="true"-->
-<!--                        app:lottie_fileName="boom.json"-->
-<!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
+                <!--                    <com.airbnb.lottie.LottieAnimationView-->
+                <!--                        android:id="@+id/textLottie10"-->
+                <!--                        android:layout_width="50dp"-->
+                <!--                        android:layout_height="50dp"-->
+                <!--                        android:visibility="invisible"-->
+                <!--                        app:lottie_autoPlay="true"-->
+                <!--                        app:lottie_fileName="boom.json"-->
+                <!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/textView10"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:fontFamily="@font/cookierunbold"-->
-<!--                        android:gravity="center_horizontal"-->
-<!--                        android:text="기"-->
-<!--                        android:textColor="#FF89BB"-->
-<!--                        android:textSize="50dp"-->
-<!--                        android:visibility="invisible" />-->
-<!--                </FrameLayout>-->
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/textView10"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:fontFamily="@font/cookierunbold"-->
+                <!--                        android:gravity="center_horizontal"-->
+                <!--                        android:text="기"-->
+                <!--                        android:textColor="#FF89BB"-->
+                <!--                        android:textSize="50dp"-->
+                <!--                        android:visibility="invisible" />-->
+                <!--                </FrameLayout>-->
 
 
                 <FrameLayout
@@ -507,6 +532,7 @@
                     android:layout_column="0"
                     android:layout_columnWeight="1"
                     android:layout_gravity="center|top">
+
                     <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/textLottie11"
                         android:layout_width="50dp"
@@ -515,17 +541,24 @@
                         app:lottie_autoPlay="true"
                         app:lottie_fileName="boom.json"
                         app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
                     <TextView
                         android:id="@+id/textView11"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#ff89bb"
+                        android:textColor="#6200EE"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame12"
                     android:layout_width="wrap_content"
@@ -546,15 +579,21 @@
 
                     <TextView
                         android:id="@+id/textView12"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#ffbd11"
+                        android:textColor="#FE9A2E"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame13"
                     android:layout_width="wrap_content"
@@ -566,8 +605,8 @@
 
                     <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/textLottie13"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="53dp"
                         android:visibility="invisible"
                         app:lottie_autoPlay="true"
                         app:lottie_fileName="boom.json"
@@ -575,15 +614,21 @@
 
                     <TextView
                         android:id="@+id/textView13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#ffbeba"
+                        android:textColor="#FF89BB"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame14"
                     android:layout_width="wrap_content"
@@ -604,44 +649,49 @@
 
                     <TextView
                         android:id="@+id/textView14"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#FE9A2E"
+                        android:textColor="#03DAC5"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
-<!--                <FrameLayout-->
-<!--                    android:id="@+id/txtFrame15"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_row="0"-->
-<!--                    android:layout_column="4"-->
-<!--                    android:layout_columnWeight="1"-->
-<!--                    android:layout_gravity="center|top">-->
+                <!--                <FrameLayout-->
+                <!--                    android:id="@+id/txtFrame15"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_row="0"-->
+                <!--                    android:layout_column="4"-->
+                <!--                    android:layout_columnWeight="1"-->
+                <!--                    android:layout_gravity="center|top">-->
 
-<!--                    <com.airbnb.lottie.LottieAnimationView-->
-<!--                        android:id="@+id/textLottie15"-->
-<!--                        android:layout_width="50dp"-->
-<!--                        android:layout_height="50dp"-->
-<!--                        android:visibility="invisible"-->
-<!--                        app:lottie_autoPlay="true"-->
-<!--                        app:lottie_fileName="boom.json"-->
-<!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
+                <!--                    <com.airbnb.lottie.LottieAnimationView-->
+                <!--                        android:id="@+id/textLottie15"-->
+                <!--                        android:layout_width="50dp"-->
+                <!--                        android:layout_height="50dp"-->
+                <!--                        android:visibility="invisible"-->
+                <!--                        app:lottie_autoPlay="true"-->
+                <!--                        app:lottie_fileName="boom.json"-->
+                <!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/textView15"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:fontFamily="@font/cookierunbold"-->
-<!--                        android:gravity="center_horizontal"-->
-<!--                        android:text="기"-->
-<!--                        android:textColor="#FF89BB"-->
-<!--                        android:textSize="50dp"-->
-<!--                        android:visibility="invisible" />-->
-<!--                </FrameLayout>-->
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/textView15"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:fontFamily="@font/cookierunbold"-->
+                <!--                        android:gravity="center_horizontal"-->
+                <!--                        android:text="기"-->
+                <!--                        android:textColor="#FF89BB"-->
+                <!--                        android:textSize="50dp"-->
+                <!--                        android:visibility="invisible" />-->
+                <!--                </FrameLayout>-->
                 <FrameLayout
                     android:id="@+id/txtFrame16"
                     android:layout_width="wrap_content"
@@ -662,15 +712,21 @@
 
                     <TextView
                         android:id="@+id/textView16"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#ff89bb"
+                        android:textColor="#6200EE"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame17"
                     android:layout_width="wrap_content"
@@ -691,15 +747,21 @@
 
                     <TextView
                         android:id="@+id/textView17"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#ffbd11"
+                        android:textColor="#FE9A2E"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame18"
                     android:layout_width="wrap_content"
@@ -720,15 +782,21 @@
 
                     <TextView
                         android:id="@+id/textView18"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#ffbeba"
+                        android:textColor="#FFBD12"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
+
                 <FrameLayout
                     android:id="@+id/txtFrame19"
                     android:layout_width="wrap_content"
@@ -749,44 +817,49 @@
 
                     <TextView
                         android:id="@+id/textView19"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:background="@drawable/rounded_corner1"
                         android:fontFamily="@font/cookierunbold"
                         android:gravity="center_horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
                         android:text="기"
-                        android:textColor="#FE9A2E"
+                        android:textColor="#03DAC5"
                         android:textSize="50dp"
                         android:visibility="invisible" />
                 </FrameLayout>
-<!--                <FrameLayout-->
-<!--                    android:id="@+id/txtFrame20"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_row="0"-->
-<!--                    android:layout_column="4"-->
-<!--                    android:layout_columnWeight="1"-->
-<!--                    android:layout_gravity="center|top">-->
+                <!--                <FrameLayout-->
+                <!--                    android:id="@+id/txtFrame20"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_row="0"-->
+                <!--                    android:layout_column="4"-->
+                <!--                    android:layout_columnWeight="1"-->
+                <!--                    android:layout_gravity="center|top">-->
 
-<!--                    <com.airbnb.lottie.LottieAnimationView-->
-<!--                        android:id="@+id/textLottie20"-->
-<!--                        android:layout_width="50dp"-->
-<!--                        android:layout_height="50dp"-->
-<!--                        android:visibility="invisible"-->
-<!--                        app:lottie_autoPlay="true"-->
-<!--                        app:lottie_fileName="boom.json"-->
-<!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
+                <!--                    <com.airbnb.lottie.LottieAnimationView-->
+                <!--                        android:id="@+id/textLottie20"-->
+                <!--                        android:layout_width="50dp"-->
+                <!--                        android:layout_height="50dp"-->
+                <!--                        android:visibility="invisible"-->
+                <!--                        app:lottie_autoPlay="true"-->
+                <!--                        app:lottie_fileName="boom.json"-->
+                <!--                        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/textView20"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:fontFamily="@font/cookierunbold"-->
-<!--                        android:gravity="center_horizontal"-->
-<!--                        android:text="기"-->
-<!--                        android:textColor="#FF89BB"-->
-<!--                        android:textSize="50dp"-->
-<!--                        android:visibility="invisible" />-->
-<!--                </FrameLayout>-->
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/textView20"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:fontFamily="@font/cookierunbold"-->
+                <!--                        android:gravity="center_horizontal"-->
+                <!--                        android:text="기"-->
+                <!--                        android:textColor="#FF89BB"-->
+                <!--                        android:textSize="50dp"-->
+                <!--                        android:visibility="invisible" />-->
+                <!--                </FrameLayout>-->
 
             </com.google.android.material.circularreveal.CircularRevealGridLayout>
 
@@ -799,19 +872,19 @@
                 app:layout_constraintEnd_toEndOf="@+id/sceneConstraintLayout"
                 app:layout_constraintStart_toStartOf="@+id/sceneConstraintLayout"
                 app:lottie_autoPlay="true"
-                app:lottie_fileName="train.json"
+                app:lottie_fileName="bg.json"
                 app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/main_lottie2"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="right|bottom"
                 app:layout_constraintBottom_toTopOf="@+id/textArea"
                 app:layout_constraintEnd_toEndOf="@+id/sceneConstraintLayout"
                 app:layout_constraintStart_toStartOf="@+id/sceneConstraintLayout"
                 app:lottie_autoPlay="true"
-                app:lottie_fileName="train.json"
+                app:lottie_fileName="bg.json"
                 app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
 
 
@@ -835,11 +908,43 @@
                 app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="-100dp"
                 android:layout_marginLeft="10dp"
-
                 android:visibility="gone"
                 app:lottie_autoPlay="true"
                 app:lottie_fileName="congratulations.json"
                 app:lottie_loop="false"></com.airbnb.lottie.LottieAnimationView>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginBottom="-15dp"
+                android:id="@+id/txtDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cookierunregular"
+                android:gravity="center|center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="40dp"
+                android:background="@drawable/rounded_corner3"
+                app:layout_constraintBottom_toBottomOf="@+id/main_lottie"
+                app:layout_constraintStart_toStartOf="@+id/textArea" />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:visibility="gone"
+                android:id="@+id/txtDesc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cookierunregular"
+                android:gravity="center|center"
+                android:background="@drawable/rounded_corner3"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textArea"
+                 />
+
 
             <LinearLayout
                 android:visibility="visible"
@@ -847,8 +952,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="20dp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtDesc1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 >
@@ -893,8 +999,6 @@
                     android:textColor="#FF018786"
                     android:textSize="50dp" />
             </LinearLayout>
-
-
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
